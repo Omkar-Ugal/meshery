@@ -13,7 +13,9 @@ func ResyncResources(ctx context.Context, sm *machines.StateMachine) error {
 	if err != nil {
 		return ErrResyncK8SResources(
 			fmt.Errorf(
-				"can not receive machine context for machine %v",
+				"unable to retrieve Kubernetes context for machine %v. "+
+				"This may happen if the Meshery database was reset and the cluster connection was removed. "+
+				"Please reconnect the Kubernetes cluster from Settings → Kubernetes Clusters",
 				sm.ID,
 			),
 		)
