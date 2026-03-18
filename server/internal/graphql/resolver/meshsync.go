@@ -175,10 +175,7 @@ func (r *Resolver) resyncCluster(ctx context.Context, provider models.Provider, 
 
 	if actions.ReSync == "true" {
 
-		// After a hard reset, the database tables (including K8sContext)
-		// are dropped and recreated. The runtime state machine may still
-		// exist, but the Kubernetes context record may be missing.
-		// Skip resync to avoid context lookup errors.
+		//Skip when hard reset is true and k8scontextID is empty
 		if actions.HardReset == "true" && k8scontextID == "" {
 			r.Log.Info("Skipping resync after hard reset due to missing Kubernetes context")
 			return model.StatusProcessing, nil
