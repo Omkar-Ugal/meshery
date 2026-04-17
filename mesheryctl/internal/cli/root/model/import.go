@@ -63,6 +63,14 @@ mesheryctl model import --file [path-to-csv-directory]
 		} else if len(args) > 1 {
 			return utils.ErrInvalidArgument(fmt.Errorf("too many arguments\n\n%s", errImportUsageMsg))
 		}
+		// after the existing checks, before return nil
+		pathToCheck := modelImportFlags.File
+		if pathToCheck == "" && len(args) == 1 {
+			pathToCheck = args[0]
+		}
+		if strings.EqualFold(filepath.Ext(pathToCheck), ".zip") {
+			return utils.ErrInvalidArgument(fmt.Errorf(".zip format is not supported. Please use .tar.gz\n\n%s", errImportUsageMsg))
+		}
 		return nil
 	},
 	RunE: func(cmd *cobra.Command, args []string) error {
