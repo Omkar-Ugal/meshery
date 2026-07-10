@@ -1,4 +1,1218 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Releases on Documentation</title><link>/project/releases/</link><description>Recent content in Releases on Documentation</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 22 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="/project/releases/index.xml" rel="self" type="application/rss+xml"/><item><title>v1.0.26</title><link>/project/releases/v1.0.26/</link><pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate><guid>/project/releases/v1.0.26/</guid><description>&lt;h2 id="whats-new"&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Releases on Documentation</title><link>/project/releases/</link><description>Recent content in Releases on Documentation</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 07 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="/project/releases/index.xml" rel="self" type="application/rss+xml"/><item><title>v1.0.55</title><link>/project/releases/v1.0.55/</link><pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate><guid>/project/releases/v1.0.55/</guid><description>&lt;h2 id="whats-new"&gt;
+	What&amp;rsquo;s New
+&lt;/h2&gt;
+&lt;h2 id="-general"&gt;
+	🔤 General
+&lt;/h2&gt;
+&lt;h2 id="-meshery-ui"&gt;
+	🖥 Meshery UI
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;feat(user): adopt schemas v1beta3 User + adapt to Meshery Cloud account-consolidation @leecalcote (#20522)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-contributors"&gt;
+	👨🏽‍💻 Contributors
+&lt;/h2&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@fitzergerald, @leecalcote, @meshery-ci and @pontusringblom&lt;/p&gt;</description></item><item><title>v1.0.54</title><link>/project/releases/v1.0.54/</link><pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate><guid>/project/releases/v1.0.54/</guid><description>&lt;h2 id="whats-new"&gt;
+	What&amp;rsquo;s New
+&lt;/h2&gt;
+&lt;h2 id="-general"&gt;
+	🔤 General
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;upgrade to meshkit v1.0.21 @arjunmehta-git (#20506)&lt;/li&gt;
+&lt;li&gt;Chore: upgrade meshsync and operator @arjunmehta-git (#20505)&lt;/li&gt;
+&lt;li&gt;[server] Fix Meshsyn-&amp;gt;Meshsync typo in controller helper symbols @leecalcote (#20501)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-meshery-ui"&gt;
+	🖥 Meshery UI
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;[Server] Fix FlushMeshSyncData stale table-name subqueries leaking MeshSync data @leecalcote (#20502)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-maintenance"&gt;
+	🧰 Maintenance
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;[Server] Fix FlushMeshSyncData stale table-name subqueries leaking MeshSync data @leecalcote (#20502)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-documentation"&gt;
+	📖 Documentation
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;[Docs] Update Docker Hugo version to 0.157.0 @AbhishekMauryaGEEK (#20071)&lt;/li&gt;
+&lt;li&gt;[Server] Fix FlushMeshSyncData stale table-name subqueries leaking MeshSync data @leecalcote (#20502)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-contributors"&gt;
+	👨🏽‍💻 Contributors
+&lt;/h2&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@AbhishekMauryaGEEK, @arjunmehta-git, @fitzergerald, @leecalcote, @marblom007, @meshery-ci, @pontusringblom and @rishiraj38&lt;/p&gt;</description></item><item><title>v1.0.53</title><link>/project/releases/v1.0.53/</link><pubDate>Sun, 05 Jul 2026 00:00:00 +0000</pubDate><guid>/project/releases/v1.0.53/</guid><description>&lt;h2 id="whats-new"&gt;
+	What&amp;rsquo;s New
+&lt;/h2&gt;
+&lt;h2 id="-general"&gt;
+	🔤 General
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;[CI] Bump docs-docker recipe to utilize hugo image v0.163.3 @banana-three-join (#20469)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-meshery-cli"&gt;
+	⌨️ Meshery CLI
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;[mesheryctl] Guard empty design response in apply to avoid index out of range @mightbeanshuu (#20448)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-meshery-ui"&gt;
+	🖥 Meshery UI
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Expose MeshSync, Operator, and Broker configuration: server-wide defaults (Settings) and per-connection overrides (Connections) @leecalcote (#20492)&lt;/li&gt;
+&lt;li&gt;chore(rtk): remove /evaluate path exception from mesheryApiPath @yi-nuo426 (#19822)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-maintenance"&gt;
+	🧰 Maintenance
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;chore(rtk): remove /evaluate path exception from mesheryApiPath @yi-nuo426 (#19822)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-documentation"&gt;
+	📖 Documentation
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;[Docs] Add guide: Bringing Existing Infrastructure Under Meshery Management @leecalcote (#20491)&lt;/li&gt;
+&lt;li&gt;[Docs] Configuring Meshery Operator, MeshSync, and Broker guide @leecalcote (#20490)&lt;/li&gt;
+&lt;li&gt;[Docs] Add Contributing to MeshSync guide @leecalcote (#20486)&lt;/li&gt;
+&lt;li&gt;[Docs] MeshSync: align architecture, logical, and troubleshooting docs with the implementation @leecalcote (#20464)&lt;/li&gt;
+&lt;li&gt;[Docs] Fix Overview &amp;amp; Installation button link @Bharath314 (#20440)&lt;/li&gt;
+&lt;li&gt;[Docs] Hide redundant hero logo on mobile home/overview page @mightbeanshuu (#20460)&lt;/li&gt;
+&lt;li&gt;Joined newcomers meet @Ayush-kr-giga (#20457)&lt;/li&gt;
+&lt;li&gt;[Docs] Add introduction for Ashtithwa in meeting notes @ubermensch177 (#20455)&lt;/li&gt;
+&lt;li&gt;Add Akash Sah&amp;rsquo;s introduction in meeting notes @SuperNeom (#20454)&lt;/li&gt;
+&lt;li&gt;Create Sulagna @suzy-g38 (#20453)&lt;/li&gt;
+&lt;li&gt;Add Chethan&amp;rsquo;s introduction to meeting notes @chethanac15 (#20452)&lt;/li&gt;
+&lt;li&gt;Create Debjit.md with bio and project details @D-source1602 (#20451)&lt;/li&gt;
+&lt;li&gt;Add Yash.md with introductory text @YASHMAHAKAL (#20449)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-contributors"&gt;
+	👨🏽‍💻 Contributors
+&lt;/h2&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@Ayush-kr-giga, @Bharath314, @D-source1602, @SuperNeom, @YASHMAHAKAL, @alexquincy, @banana-three-join, @chethanac15, @fitzergerald, @hortison, @leecalcote, @marblom007, @meshery-ci, @mightbeanshuu, @pontusringblom, @rishiraj38, @suzy-g38, @ubermensch177 and @yi-nuo426&lt;/p&gt;</description></item><item><title>v1.0.51</title><link>/project/releases/v1.0.51/</link><pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate><guid>/project/releases/v1.0.51/</guid><description>&lt;h2 id="whats-new"&gt;
+	What&amp;rsquo;s New
+&lt;/h2&gt;
+&lt;h2 id="-general"&gt;
+	🔤 General
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;sync go.mod @aabidsofi19 (#20400)&lt;/li&gt;
+&lt;li&gt;Maintainers.md: rm codexraunak; update matrixkavitha affiliation @yi-nuo426 (#20356)&lt;/li&gt;
+&lt;li&gt;[refactor] Standardize Method Not Allowed error in ServerEventConfigu… @emphor11 (#20163)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-meshery-cli"&gt;
+	⌨️ Meshery CLI
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;[Server] Bump github.com/meshery/schemas to v1.3.22 @leecalcote (#20395)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-meshery-ui"&gt;
+	🖥 Meshery UI
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;refactor(extensions): rename Extension to VisualDesignerExtension @aabidsofi19 (#20414)&lt;/li&gt;
+&lt;li&gt;fix(e2e): search and import model e2e test @KhushamBansal (#20351)&lt;/li&gt;
+&lt;li&gt;chore(deps-dev): bump eslint from 10.5.0 to 10.6.0 in /ui @[dependabot[bot]](&lt;a href="https://github.com/apps/dependabot"&gt;https://github.com/apps/dependabot&lt;/a&gt;) (#20384)&lt;/li&gt;
+&lt;li&gt;chore(deps): bump @sistent/sistent from 0.21.25 to 0.21.26 in /ui @[dependabot[bot]](&lt;a href="https://github.com/apps/dependabot"&gt;https://github.com/apps/dependabot&lt;/a&gt;) (#20389)&lt;/li&gt;
+&lt;li&gt;chore(deps): bump @sistent/sistent from 0.21.25 to 0.21.26 in /provider-ui @[dependabot[bot]](&lt;a href="https://github.com/apps/dependabot"&gt;https://github.com/apps/dependabot&lt;/a&gt;) (#20383)&lt;/li&gt;
+&lt;li&gt;chore(deps): bump js-yaml from 5.1.0 to 5.2.0 in /ui @[dependabot[bot]](&lt;a href="https://github.com/apps/dependabot"&gt;https://github.com/apps/dependabot&lt;/a&gt;) (#20387)&lt;/li&gt;
+&lt;li&gt;chore(deps): bump xstate from 5.32.2 to 5.32.3 in /provider-ui @[dependabot[bot]](&lt;a href="https://github.com/apps/dependabot"&gt;https://github.com/apps/dependabot&lt;/a&gt;) (#20388)&lt;/li&gt;
+&lt;li&gt;chore(deps-dev): bump eslint from 10.5.0 to 10.6.0 in /provider-ui @[dependabot[bot]](&lt;a href="https://github.com/apps/dependabot"&gt;https://github.com/apps/dependabot&lt;/a&gt;) (#20386)&lt;/li&gt;
+&lt;li&gt;chore(deps): bump @meshery/schemas from 1.3.15 to 1.3.18 in /provider-ui @[dependabot[bot]](&lt;a href="https://github.com/apps/dependabot"&gt;https://github.com/apps/dependabot&lt;/a&gt;) (#20385)&lt;/li&gt;
+&lt;li&gt;[UI] Guard dashboard widgets against null data and add consistent error/empty states @leecalcote (#20390)&lt;/li&gt;
+&lt;li&gt;Fix(ui): Use distinct FilterAllIcon for select-all checkbox in Header @kanishksingh23 (#19004)&lt;/li&gt;
+&lt;li&gt;fix(ui): render empty state when loading completes @KumarNirupam1 (#20222)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-maintenance"&gt;
+	🧰 Maintenance
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;feat(operator-chart): modernize to operator v1.0.0 — CRD updates on upgrade, opt-in conversion webhook, release-driven publishing @alexquincy (#20410)&lt;/li&gt;
+&lt;li&gt;Chore: Get rid of orphan root policies folder @aabidsofi19 (#20376)&lt;/li&gt;
+&lt;li&gt;fix(e2e): search and import model e2e test @KhushamBansal (#20351)&lt;/li&gt;
+&lt;li&gt;[CI] Fix Rego workflow: setup-regal action moved to open-policy-agent org @leecalcote (#20396)&lt;/li&gt;
+&lt;li&gt;chore(deps-dev): bump eslint from 10.5.0 to 10.6.0 in /ui @[dependabot[bot]](&lt;a href="https://github.com/apps/dependabot"&gt;https://github.com/apps/dependabot&lt;/a&gt;) (#20384)&lt;/li&gt;
+&lt;li&gt;chore(deps): bump @sistent/sistent from 0.21.25 to 0.21.26 in /ui @[dependabot[bot]](&lt;a href="https://github.com/apps/dependabot"&gt;https://github.com/apps/dependabot&lt;/a&gt;) (#20389)&lt;/li&gt;
+&lt;li&gt;chore(deps): bump @sistent/sistent from 0.21.25 to 0.21.26 in /provider-ui @[dependabot[bot]](&lt;a href="https://github.com/apps/dependabot"&gt;https://github.com/apps/dependabot&lt;/a&gt;) (#20383)&lt;/li&gt;
+&lt;li&gt;chore(deps): bump js-yaml from 5.1.0 to 5.2.0 in /ui @[dependabot[bot]](&lt;a href="https://github.com/apps/dependabot"&gt;https://github.com/apps/dependabot&lt;/a&gt;) (#20387)&lt;/li&gt;
+&lt;li&gt;chore(deps): bump xstate from 5.32.2 to 5.32.3 in /provider-ui @[dependabot[bot]](&lt;a href="https://github.com/apps/dependabot"&gt;https://github.com/apps/dependabot&lt;/a&gt;) (#20388)&lt;/li&gt;
+&lt;li&gt;chore(deps-dev): bump eslint from 10.5.0 to 10.6.0 in /provider-ui @[dependabot[bot]](&lt;a href="https://github.com/apps/dependabot"&gt;https://github.com/apps/dependabot&lt;/a&gt;) (#20386)&lt;/li&gt;
+&lt;li&gt;chore(deps): bump @meshery/schemas from 1.3.15 to 1.3.18 in /provider-ui @[dependabot[bot]](&lt;a href="https://github.com/apps/dependabot"&gt;https://github.com/apps/dependabot&lt;/a&gt;) (#20385)&lt;/li&gt;
+&lt;li&gt;Fix(ui): Use distinct FilterAllIcon for select-all checkbox in Header @kanishksingh23 (#19004)&lt;/li&gt;
+&lt;li&gt;Fix path for removing current docs pages @fitzergerald (#20352)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-documentation"&gt;
+	📖 Documentation
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;docs: Upgrading Meshery guide; Server-managed operator lifecycle; Operator/MeshSync/Broker concept uplift @alexquincy (#20413)&lt;/li&gt;
+&lt;li&gt;Add attendance instructions to meeting notes @YASHMAHAKAL (#20411)&lt;/li&gt;
+&lt;li&gt;Chore: Get rid of orphan root policies folder @aabidsofi19 (#20376)&lt;/li&gt;
+&lt;li&gt;[Docs] Fix broken sample app image references @akshatsinghai6682-sketch (#20393)&lt;/li&gt;
+&lt;li&gt;Fix(ui): Use distinct FilterAllIcon for select-all checkbox in Header @kanishksingh23 (#19004)&lt;/li&gt;
+&lt;li&gt;docs: add Meshery Operator contributing guide @leecalcote (#20366)&lt;/li&gt;
+&lt;li&gt;fix/update-community-discussion-link @Sbragul26 (#20321)&lt;/li&gt;
+&lt;li&gt;fix: improve sidebar text visibility @Sbragul26 (#20304)&lt;/li&gt;
+&lt;li&gt;improve docs scrollbar ui @saurabhraghuvanshii (#20358)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-contributors"&gt;
+	👨🏽‍💻 Contributors
+&lt;/h2&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@KhushamBansal, @KumarNirupam1, @Sbragul26, @YASHMAHAKAL, @aabidsofi19, @akshatsinghai6682-sketch, @alexquincy, @banana-three-join, @dependabot[bot], @emphor11, @fitzergerald, @kanishksingh23, @leecalcote, @meshery-ci, @pontusringblom, @rishiraj38, @sangramrath, @saurabhraghuvanshii, @simihablo, @winkletinkle, @yi-nuo426 and [dependabot[bot]](&lt;a href="https://github.com/apps/dependabot"&gt;https://github.com/apps/dependabot&lt;/a&gt;)&lt;/p&gt;</description></item><item><title>v1.0.52</title><link>/project/releases/v1.0.52/</link><pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate><guid>/project/releases/v1.0.52/</guid><description>&lt;h2 id="whats-new"&gt;
+	What&amp;rsquo;s New
+&lt;/h2&gt;
+&lt;h2 id="-general"&gt;
+	🔤 General
+&lt;/h2&gt;
+&lt;h2 id="-meshery-ui"&gt;
+	🖥 Meshery UI
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;feat(events): Migrate event streaming from GraphQL to SSE @aabidsofi19 (#20375)&lt;/li&gt;
+&lt;li&gt;chore(ui): add date-fns dependency for @mui/x-date-pickers&amp;rsquo; AdapterDateFns @alexquincy (#20416)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-contributors"&gt;
+	👨🏽‍💻 Contributors
+&lt;/h2&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@aabidsofi19, @alexquincy, @leecalcote, @meshery-ci, @rishiraj38 and @simihablo&lt;/p&gt;</description></item><item><title>v1.0.50</title><link>/project/releases/v1.0.50/</link><pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate><guid>/project/releases/v1.0.50/</guid><description>&lt;h2 id="whats-new"&gt;
+	What&amp;rsquo;s New
+&lt;/h2&gt;
+&lt;h2 id="-general"&gt;
+	🔤 General
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Remove premature maintainer assignment @alexquincy (#20337)&lt;/li&gt;
+&lt;li&gt;Delete scripts directory @winkletinkle (#20322)&lt;/li&gt;
+&lt;li&gt;[Server] Sync wasm module to meshkit v1.0.19 (fix Build image CI) @marblom007 (#20318)&lt;/li&gt;
+&lt;li&gt;Delete server/meshmodel directory @pontusringblom (#20315)&lt;/li&gt;
+&lt;li&gt;Bump launch-editor from 2.12.0 to 2.14.1 in /install/docker-extension/ui @[dependabot[bot]](&lt;a href="https://github.com/apps/dependabot"&gt;https://github.com/apps/dependabot&lt;/a&gt;) (#20104)&lt;/li&gt;
+&lt;li&gt;feat(model): add AWS VPC core relationship definitions @Junnygram (#20274)&lt;/li&gt;
+&lt;li&gt;[Models] added relationships for aws-mq-controller @YASHMAHAKAL (#17656)&lt;/li&gt;
+&lt;li&gt;added 4 relationships for aws-node-termination-handler-2 @YASHMAHAKAL (#17700)&lt;/li&gt;
+&lt;li&gt;Added 15 relationships for aws-ecr-controller @YASHMAHAKAL (#17632)&lt;/li&gt;
+&lt;li&gt;relationships for aws-route53-controller @YASHMAHAKAL (#17617)&lt;/li&gt;
+&lt;li&gt;non-binding visual relationships for AWS CloudFront Distribution to Kubernetes Ingress, Kubernetes Service @YASHMAHAKAL (#17488)&lt;/li&gt;
+&lt;li&gt;[Model] Adition of AWS Glue Controller @YASHMAHAKAL (#17582)&lt;/li&gt;
+&lt;li&gt;added 10 aws applicationautoscaler controller relationships @YASHMAHAKAL (#17524)&lt;/li&gt;
+&lt;li&gt;Add lambda sqs relationship @Sanjana2906 (#18671)&lt;/li&gt;
+&lt;li&gt;Add ElasticsearchDomain and Cloudwatch LogGroup relationship @ey22 (#18195)&lt;/li&gt;
+&lt;li&gt;feat(mesh model): add nvidia-gpu-operator and node-feature-discovery @srivastavasujay (#18677)&lt;/li&gt;
+&lt;li&gt;[Server] Add Azure BatchAccount relationships @aviralgarg05 (#18824)&lt;/li&gt;
+&lt;li&gt;[Models]Add AWS relationships for IAM Role → EKS Cluster / NodeGroup @Debashich (#17506)&lt;/li&gt;
+&lt;li&gt;[Models] Add hierarchical relationships for AWS APIGatewayV2 controller @Debashich (#17518)&lt;/li&gt;
+&lt;li&gt;[Models] Add edge relationships for AWS APIGatewayV2 controller @Debashich (#17556)&lt;/li&gt;
+&lt;li&gt;[models] Add CloudWatch LogGroup to ECS TaskDefinition relationship for aws-ecs-controller @farhann-saleem (#17708)&lt;/li&gt;
+&lt;li&gt;add(relationships): add hierarchical relationships for flux model @adityaupasani2 (#17836)&lt;/li&gt;
+&lt;li&gt;[models] Add ECS TaskDefinition to Cluster hierarchical relationship for aws-ecs-controller @farhann-saleem (#17796)&lt;/li&gt;
+&lt;li&gt;feat(meshmodel): add AWS DynamoDB Table and SQS Queue relationships to Kubernetes Deployment and Pod @aahil62 (#19490)&lt;/li&gt;
+&lt;li&gt;feat(meshmodel): add Azure Service Bus Queue and Event Hub relationships to Kubernetes Deployment and Pod @aahil62 (#19493)&lt;/li&gt;
+&lt;li&gt;feat(meshmodel): add AWS RDS DBInstance and Lambda Function relationships to Kubernetes Deployment and Pod @aahil62 (#19502)&lt;/li&gt;
+&lt;li&gt;add(relationships): add hierarchical relationships for karpenter model @adityaupasani2 (#19747)&lt;/li&gt;
+&lt;li&gt;add(relationships): add hierarchical relationships for metallb model @adityaupasani2 (#19769)&lt;/li&gt;
+&lt;li&gt;[Models] Add VirtualNetworksSubnet relationships for Azure FlexibleServer resources @ObaidAbdullah16 (#19791)&lt;/li&gt;
+&lt;li&gt;feat: aws-ecs relationship @Junnygram (#20183)&lt;/li&gt;
+&lt;li&gt;add(relationships): add hierarchical relationships for stackgres-operator model @adityaupasani2 (#19797)&lt;/li&gt;
+&lt;li&gt;feat(meshmodel): add Azure NetworkSecurityGroup → SecurityRule hierar… @Sanjana2906 (#19019)&lt;/li&gt;
+&lt;li&gt;[Models] Add relationships for AWS APIGatewayV2 controller @Debashich (#17619)&lt;/li&gt;
+&lt;li&gt;Add 12 new relationship definitions for AWS S3 components @yi-nuo426 (#17470)&lt;/li&gt;
+&lt;li&gt;[Models] Implemented AWS APIGatewayV2 Bindings &amp;amp; Refactored Hierarchical Relationships to v1alpha3 schema @AhmedAzzam-Web (#17631)&lt;/li&gt;
+&lt;li&gt;feat(meshmodel): fix typo and add ManagedClustersAgentPool relationship for azure-container-service @adityaupasani2 (#17760)&lt;/li&gt;
+&lt;li&gt;[Models] Add relationships for AWS ElastiCache controller @Suhani1234-5 (#17655)&lt;/li&gt;
+&lt;li&gt;feat(meshmodel): add hierarchical relationships for KEDA components @adityaupasani2 (#17790)&lt;/li&gt;
+&lt;li&gt;Feat/cert manager relationships @adityaupasani2 (#17792)&lt;/li&gt;
+&lt;li&gt;[AWS ElasticSearch Service] Fix invalid vpcOptions patch references in ElasticsearchDomain relationships @AyushSharma0209 (#18837)&lt;/li&gt;
+&lt;li&gt;[Models] Add AWS routing and NAT Gateway relationships for aws-ec2-controller @akshayghalme (#19087)&lt;/li&gt;
+&lt;li&gt;add lambda-to-pod relationships @YASHMAHAKAL (#17267)&lt;/li&gt;
+&lt;li&gt;feat: add aws-kms-controller relationships @YASHMAHAKAL (#17462)&lt;/li&gt;
+&lt;li&gt;Add SNS Topic → Kubernetes Deployment/Pod Relationships @YASHMAHAKAL (#17444)&lt;/li&gt;
+&lt;li&gt;[Models] Add 11 AWS cross-service relationship definitions (Lambda, S3, DynamoDB, EC2, RDS, SNS, SQS, IAM, CloudWatch, ApiGatewayV2) @Silapareddy-Praveen-Kumar-Reddy (#17964)&lt;/li&gt;
+&lt;li&gt;[server] Add ECS Service to TargetGroup relationship @FreemanBoss (#17450)&lt;/li&gt;
+&lt;li&gt;feat: add EventBridge Rule → Lambda, SQS, SNS edge network relationships @sooovamm (#17512)&lt;/li&gt;
+&lt;li&gt;Add GitHub ConnectionDefinition to meshery-core model @leecalcote (#20311)&lt;/li&gt;
+&lt;li&gt;[models] Add ECR Repository to ECS TaskDefinition relationship for aws-ecs-controller @farhann-saleem (#17626)&lt;/li&gt;
+&lt;li&gt;feat: add API Gateway V2 → Lambda relationship @Sanjana2906 (#18413)&lt;/li&gt;
+&lt;li&gt;feat: add SQS → Lambda event source mapping relationship @Sanjana2906 (#18689)&lt;/li&gt;
+&lt;li&gt;feat(meshmodel): add AWS ElastiCache ReplicationGroup relationships to Kubernetes Deployment and Pod @aahil62 (#19506)&lt;/li&gt;
+&lt;li&gt;feat(meshmodel): add AWS SNS Topic relationships to Kubernetes Deployment and Pod @aahil62 (#19507)&lt;/li&gt;
+&lt;li&gt;feat(meshmodel): add AWS EventBridge EventBus relationships to Kubernetes Deployment and Pod @aahil62 (#19528)&lt;/li&gt;
+&lt;li&gt;feat(meshmodel): add AWS Secrets Manager Secret relationships to Kubernetes Deployment and Pod @aahil62 (#19508)&lt;/li&gt;
+&lt;li&gt;[Models] feat: add RouteTable to InternetGateway relationship @adithyaganesh999 (#19587)&lt;/li&gt;
+&lt;li&gt;feat(meshmodel): add AzureIdentity→AzureIdentityBinding relationship for aad-pod-identity @abuzar200 (#19666)&lt;/li&gt;
+&lt;li&gt;fix(meshmodel): populate svgComplete for Exoscale icons @ShubhamSoni09 (#19939)&lt;/li&gt;
+&lt;li&gt;Add sqs dlq relationship @Sanjana2906 (#18823)&lt;/li&gt;
+&lt;li&gt;feat(meshmodel): add AWS RDS DBProxy → VPC parent relationship @AditiCoderr (#18674)&lt;/li&gt;
+&lt;li&gt;[Models] Improve relationships for ms-catalogs-worker component @BasavarajBankolli (#18360)&lt;/li&gt;
+&lt;li&gt;Secret-to-DBInstance and Secret-to-DBCluster secret-rotation relationship @CloudWithHannah (#18340)&lt;/li&gt;
+&lt;li&gt;feat(relationships): add ECS TaskDefinition → IAM Role permission relationships @YaoyiW27 (#18311)&lt;/li&gt;
+&lt;li&gt;feat(meshmodel): add Azure VirtualNetwork → Subnet network relationship @Sanjana2906 (#18968)&lt;/li&gt;
+&lt;li&gt;feat(meshmodel): add Azure Public IP → Network Interface relationship @Sanjana2906 (#18892)&lt;/li&gt;
+&lt;li&gt;Added AWS RDS hierarchical relationships for snapshots and database instances @Debashich (#17378)&lt;/li&gt;
+&lt;li&gt;[Models] Add AWS API Gateway relationships with Kubernetes Service and Ingress @ANKANJAGTAP (#17326)&lt;/li&gt;
+&lt;li&gt;[Relationships] Add AWS Secrets Manager to Kubernetes workloads @devrajmandal (#17186)&lt;/li&gt;
+&lt;li&gt;[Models] Add AWS Secrets Manager relationships for Deployment and Pod workloads @sarika-03 (#17260)&lt;/li&gt;
+&lt;li&gt;feat(meshmodel): add AWS CloudWatch monitoring relationships →Deployment/StatefulSet @Debashich (#17181)&lt;/li&gt;
+&lt;li&gt;[Relationships] Add S3 Bucket to Deployment and Pod reference relationships @YASHMAHAKAL (#17030)&lt;/li&gt;
+&lt;li&gt;[Relationships] Add Pod to PVC reference relationship @YASHMAHAKAL (#16938)&lt;/li&gt;
+&lt;li&gt;Add Kubernetes Deployment to Service relationship @chandan009s (#16954)&lt;/li&gt;
+&lt;li&gt;feat: add AWS RDS database connectivity relationships @Debashich (#17014)&lt;/li&gt;
+&lt;li&gt;Catalog: [Issue 9289] Add Redis ConfigMap configuration sample @Raja-89 (#16841)&lt;/li&gt;
+&lt;li&gt;[Docs] condense AGENTS.md and add CLAUDE.md alias @marblom007 (#20310)&lt;/li&gt;
+&lt;li&gt;Bump ws in /install/docker-extension/ui @[dependabot[bot]](&lt;a href="https://github.com/apps/dependabot"&gt;https://github.com/apps/dependabot&lt;/a&gt;) (#20110)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-meshery-cli"&gt;
+	⌨️ Meshery CLI
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;[mesheryctl] Wrap raw validation error in system channel command @emphor11 (#20136)&lt;/li&gt;
+&lt;li&gt;Docs: restructure contributing docs @miacycle (#20333)&lt;/li&gt;
+&lt;li&gt;fix: validate design ID in DeleteMesheryPatternHandler @manoj-1407 (#19234)&lt;/li&gt;
+&lt;li&gt;Rewire model data references to repo-root models/ and bump meshkit v1.0.19 @miacycle (#20312)&lt;/li&gt;
+&lt;li&gt;[mesheryctl] Fix variable name typo: channelNameSeperated -&amp;gt; channelNameSeparated @shivv23 (#19871)&lt;/li&gt;
+&lt;li&gt;[Relationships] Add meaningful relationships for Azure App Service @shri33 (#18553)&lt;/li&gt;
+&lt;li&gt;feat(meshmodel): add DocumentDB→Deployment/StatefulSet, DynamoDB→Depl… @Debashich (#17177)&lt;/li&gt;
+&lt;li&gt;[mesheryctl] Fix minimum() returning max on argument ties @Priyanshu6968 (#20285)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-meshery-ui"&gt;
+	🖥 Meshery UI
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;[UI] fix: navigation menu @KhushamBansal (#20174)&lt;/li&gt;
+&lt;li&gt;[UI] Fix Add Cluster crash on kubeconfig upload with errored contexts @marblom007 (#20317)&lt;/li&gt;
+&lt;li&gt;fix: validate design ID in DeleteMesheryPatternHandler @manoj-1407 (#19234)&lt;/li&gt;
+&lt;li&gt;Bump tmp from 0.2.6 to 0.2.7 in /ui @[dependabot[bot]](&lt;a href="https://github.com/apps/dependabot"&gt;https://github.com/apps/dependabot&lt;/a&gt;) (#20080)&lt;/li&gt;
+&lt;li&gt;[mesheryctl] Fix variable name typo: channelNameSeperated -&amp;gt; channelNameSeparated @shivv23 (#19871)&lt;/li&gt;
+&lt;li&gt;[Relationships] Add meaningful relationships for Azure App Service @shri33 (#18553)&lt;/li&gt;
+&lt;li&gt;feat(meshmodel): add DocumentDB→Deployment/StatefulSet, DynamoDB→Depl… @Debashich (#17177)&lt;/li&gt;
+&lt;li&gt;fix(ui): remove stray prop on PopupButton in environment-card @Abhay-sonkar (#20257)&lt;/li&gt;
+&lt;li&gt;[UI] fix: registry mobile view @KhushamBansal (#20188)&lt;/li&gt;
+&lt;li&gt;[UI] Replace hardcoded hex fills with sistent tokens in environments @ishwar170695 (#20281)&lt;/li&gt;
+&lt;li&gt;[UI] Fix clipped action icons in Recent Designs widget @iyush05 (#20297)&lt;/li&gt;
+&lt;li&gt;fix: mobile viewport for preferences page @KhushamBansal (#20286)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-maintenance"&gt;
+	🧰 Maintenance
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;fix: validate design ID in DeleteMesheryPatternHandler @manoj-1407 (#19234)&lt;/li&gt;
+&lt;li&gt;Rewire model data references to repo-root models/ and bump meshkit v1.0.19 @miacycle (#20312)&lt;/li&gt;
+&lt;li&gt;Bump tmp from 0.2.6 to 0.2.7 in /ui @[dependabot[bot]](&lt;a href="https://github.com/apps/dependabot"&gt;https://github.com/apps/dependabot&lt;/a&gt;) (#20080)&lt;/li&gt;
+&lt;li&gt;[mesheryctl] Fix variable name typo: channelNameSeperated -&amp;gt; channelNameSeparated @shivv23 (#19871)&lt;/li&gt;
+&lt;li&gt;ci: pin actions/checkout from @master to @v6 @MrDadhich456 (#20314)&lt;/li&gt;
+&lt;li&gt;[Relationships] Add meaningful relationships for Azure App Service @shri33 (#18553)&lt;/li&gt;
+&lt;li&gt;feat(meshmodel): add DocumentDB→Deployment/StatefulSet, DynamoDB→Depl… @Debashich (#17177)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-documentation"&gt;
+	📖 Documentation
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Docs: restructure contributing docs @miacycle (#20333)&lt;/li&gt;
+&lt;li&gt;fix: validate design ID in DeleteMesheryPatternHandler @manoj-1407 (#19234)&lt;/li&gt;
+&lt;li&gt;Rewire model data references to repo-root models/ and bump meshkit v1.0.19 @miacycle (#20312)&lt;/li&gt;
+&lt;li&gt;[Docs] Colorize documentation scrollbar to match meshery.io @shteypandey28-hue (#20272)&lt;/li&gt;
+&lt;li&gt;Docs/ai provider production notes @Cloud-Architect-Emma (#19753)&lt;/li&gt;
+&lt;li&gt;[mesheryctl] Fix variable name typo: channelNameSeperated -&amp;gt; channelNameSeparated @shivv23 (#19871)&lt;/li&gt;
+&lt;li&gt;[Relationships] Add meaningful relationships for Azure App Service @shri33 (#18553)&lt;/li&gt;
+&lt;li&gt;Add lambda dynamodb relationship @Sanjana2906 (#18313)&lt;/li&gt;
+&lt;li&gt;feat(meshmodel): add DocumentDB→Deployment/StatefulSet, DynamoDB→Depl… @Debashich (#17177)&lt;/li&gt;
+&lt;li&gt;Add Priyanshu Bharti&amp;rsquo;s introduction @Priyanshubhartistm (#20302)&lt;/li&gt;
+&lt;li&gt;Create Ananyaa @ananyaa0518 (#20301)&lt;/li&gt;
+&lt;li&gt;Add Yana Pandey&amp;rsquo;s introduction to meeting notes @Yana-do-code (#20299)&lt;/li&gt;
+&lt;li&gt;Create Ankush Khakale.md for personal introduction @ankushkhakale (#20300)&lt;/li&gt;
+&lt;li&gt;Add Piyush Chandrakar&amp;rsquo;s introduction to meetings doc @piyush-c38 (#20298)&lt;/li&gt;
+&lt;li&gt;Create Udaybir-Singh.md for profile information @Uday9909 (#20295)&lt;/li&gt;
+&lt;li&gt;Add introduction for Harsh Pratap Singh @harshpsi9194 (#20294)&lt;/li&gt;
+&lt;li&gt;Add introductory note from Chethan @chethanac15 (#20293)&lt;/li&gt;
+&lt;li&gt;Create sulagna-ghosh @suzy-g38 (#20291)&lt;/li&gt;
+&lt;li&gt;Create Yash-Mahakal.md @YASHMAHAKAL (#20292)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-contributors"&gt;
+	👨🏽‍💻 Contributors
+&lt;/h2&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@ANKANJAGTAP, @Abhay-sonkar, @AditiCoderr, @AhmedAzzam-Web, @AyushSharma0209, @BasavarajBankolli, @Cloud-Architect-Emma, @CloudWithHannah, @CodeAhmedJamil, @Debashich, @FreemanBoss, @Junnygram, @KhushamBansal, @MrDadhich456, @ObaidAbdullah16, @Priyanshu6968, @Priyanshubhartistm, @Raja-89, @Sanjana2906, @ShubhamSoni09, @Silapareddy-Praveen-Kumar-Reddy, @Suhani1234-5, @Uday9909, @YASHMAHAKAL, @Yana-do-code, @YaoyiW27, @aabidsofi19, @aahil62, @abuzar200, @adithyaganesh999, @adityaupasani2, @akshayghalme, @alexquincy, @ananyaa0518, @ankushkhakale, @arjunmehta-git, @aviralgarg05, @carlosriosilva, @chandan009s, @chellej, @chethanac15, @devrajmandal, @emphor11, @ey22, @farhann-saleem, @fitzergerald, @hamza-mohd, @harshpsi9194, @hortison, @ishwar170695, @iyush05, @jamieplu, @leecalcote, @manoj-1407, @marblom007, @mascot-five, @miacycle, @piyush-c38, @pontusringblom, @rishiraj38, @ritzorama, @sarajkrishnasingh, @sarika-03, @shivv23, @shri33, @shteypandey28-hue, @simihablo, @sooovamm, @srivastavasujay, @suttonskate, @suzy-g38, @winkletinkle, @yi-nuo426 and [dependabot[bot]](&lt;a href="https://github.com/apps/dependabot"&gt;https://github.com/apps/dependabot&lt;/a&gt;)&lt;/p&gt;</description></item><item><title>v1.0.48</title><link>/project/releases/v1.0.48/</link><pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate><guid>/project/releases/v1.0.48/</guid><description>&lt;h2 id="whats-new"&gt;
+	What&amp;rsquo;s New
+&lt;/h2&gt;
+&lt;h2 id="-general"&gt;
+	🔤 General
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Remove unused context handler methods @yi-nuo426 (#20267)&lt;/li&gt;
+&lt;li&gt;Refactor GetContext function documentation @yi-nuo426 (#20266)&lt;/li&gt;
+&lt;li&gt;Remove unused methods from DefaultLocalProvider @yi-nuo426 (#20268)&lt;/li&gt;
+&lt;li&gt;Remove commented-out Ping test code @yi-nuo426 (#20269)&lt;/li&gt;
+&lt;li&gt;Improve connection persistence logging and error handling @yi-nuo426 (#20270)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-meshery-cli"&gt;
+	⌨️ Meshery CLI
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;fix(mesheryctl): fix broken error handling in TestSetContext @Harishrs2006 (#19853)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-meshery-ui"&gt;
+	🖥 Meshery UI
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;chore(k8s-context): remove dead context code and fix persist logging @leecalcote (#20260)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-maintenance"&gt;
+	🧰 Maintenance
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ci: remove duplicate CodeQL Advanced workflow @MrDadhich456 (#20248)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-documentation"&gt;
+	📖 Documentation
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Update overview.md @marblom007 (#20279)&lt;/li&gt;
+&lt;li&gt;[Docs] Sidebar TOC: render leaf pages with normal font weight @jamieplu (#20276)&lt;/li&gt;
+&lt;li&gt;Update overview.md @simihablo (#20277)&lt;/li&gt;
+&lt;li&gt;[Docs] TOC Sidebar uplift @jamieplu (#20275)&lt;/li&gt;
+&lt;li&gt;Fix v0.8 light/dark mode icon display @Katotodan (#20258)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-contributors"&gt;
+	👨🏽‍💻 Contributors
+&lt;/h2&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@Harishrs2006, @Katotodan, @MrDadhich456, @aabidsofi19, @carlosriosilva, @fitzergerald, @jamieplu, @leecalcote, @marblom007, @pontusringblom, @ritzorama, @simihablo, @winkletinkle and @yi-nuo426&lt;/p&gt;</description></item><item><title>v1.0.49</title><link>/project/releases/v1.0.49/</link><pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate><guid>/project/releases/v1.0.49/</guid><description>&lt;h2 id="whats-new"&gt;
+	What&amp;rsquo;s New
+&lt;/h2&gt;
+&lt;h2 id="-general"&gt;
+	🔤 General
+&lt;/h2&gt;
+&lt;h2 id="-meshery-ui"&gt;
+	🖥 Meshery UI
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;add telemtry routes to nextjs and update extension doc comments @aabidsofi19 (#20287)&lt;/li&gt;
+&lt;li&gt;fix: De-duplicate Artifact Hub registrant summary in startup logs @icoderarely (#19591)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-contributors"&gt;
+	👨🏽‍💻 Contributors
+&lt;/h2&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@aabidsofi19, @fitzergerald, @icoderarely and @leecalcote&lt;/p&gt;</description></item><item><title>v1.0.46</title><link>/project/releases/v1.0.46/</link><pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate><guid>/project/releases/v1.0.46/</guid><description>&lt;h2 id="whats-new"&gt;
+	What&amp;rsquo;s New
+&lt;/h2&gt;
+&lt;h2 id="-general"&gt;
+	🔤 General
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Update to Meshery Schemas v1.3.16 @jamieplu (#20247)&lt;/li&gt;
+&lt;li&gt;[Server] Fix duplicate ErrInvalidUUID causing &amp;ldquo;Error codes utility&amp;rdquo; CI failure @[copilot-swe-agent[bot]](&lt;a href="https://github.com/apps/copilot-swe-agent"&gt;https://github.com/apps/copilot-swe-agent&lt;/a&gt;) (#20245)&lt;/li&gt;
+&lt;li&gt;feat(ui): release-scoped cache headers for the served UI @leecalcote (#20239)&lt;/li&gt;
+&lt;li&gt;[Server] fix(errors): dedupe ErrInvalidUUIDCode to unblock Error Codes Utility @leecalcote (#20240)&lt;/li&gt;
+&lt;li&gt;docs: add Bluesky social shield to README.md @KumarNirupam1 (#20220)&lt;/li&gt;
+&lt;li&gt;fix(uuid): harden ignored UUID errors after the gofrs revert @ritzorama (#20181)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-meshery-ui"&gt;
+	🖥 Meshery UI
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;chore(ui): bump @meshery/schemas to 1.3.16 @leecalcote (#20249)&lt;/li&gt;
+&lt;li&gt;UI: Dependencies upgrades @leecalcote (#20238)&lt;/li&gt;
+&lt;li&gt;feat(table): persist table state in URL and add row deeplinks @hortison (#20237)&lt;/li&gt;
+&lt;li&gt;[UI] Polish context switcher layout and hover interactions @chaitanyamedidar (#20217)&lt;/li&gt;
+&lt;li&gt;[UI] Fix Connection Wizard missing fallback icons using native Sistent components @chaitanyamedidar (#20202)&lt;/li&gt;
+&lt;li&gt;fix(error-404): show the user&amp;rsquo;s assigned organization roles in Current Session @leecalcote (#20205)&lt;/li&gt;
+&lt;li&gt;[Chore]: Update to Sistent v0.21.22 @rishiraj38 (#20190)&lt;/li&gt;
+&lt;li&gt;[Chore] Bump @meshery/schemas to 1.3.13 in UI packages (ui, provider-ui, docker-extension) @ritzorama (#20180)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-maintenance"&gt;
+	🧰 Maintenance
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;UI: Dependencies upgrades @leecalcote (#20238)&lt;/li&gt;
+&lt;li&gt;fix(install): repair broken provider-drift CI gate (check-install -&amp;gt; providers-check) + resync stale k8s manifest @ritzorama (#20182)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-documentation"&gt;
+	📖 Documentation
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Delete docs/meetings/2026/week-of-06-18-2026/pragalva.md @yi-nuo426 (#20246)&lt;/li&gt;
+&lt;li&gt;docs(production): cover CDN and edge caching of the served UI @leecalcote (#20243)&lt;/li&gt;
+&lt;li&gt;[Docs] fix: add missing extension icon before Kanvas title @smishraa30 (#20210)&lt;/li&gt;
+&lt;li&gt;[Docs] Remove extra empty column from Meshery Connections table @YASHMAHAKAL (#17994)&lt;/li&gt;
+&lt;li&gt;[Docs] Add Connection Wizard user and contributor guides @leecalcote (#20192)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-contributors"&gt;
+	👨🏽‍💻 Contributors
+&lt;/h2&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@Copilot, @KumarNirupam1, @YASHMAHAKAL, @chaitanyamedidar, @fitzergerald, @hamza-mohd, @hortison, @jamieplu, @leecalcote, @meshery-ci, @miacycle, @rishiraj38, @ritzorama, @saurabhraghuvanshii, @smishraa30, @winkletinkle, @yi-nuo426, Kumar and [copilot-swe-agent[bot]](&lt;a href="https://github.com/apps/copilot-swe-agent"&gt;https://github.com/apps/copilot-swe-agent&lt;/a&gt;)&lt;/p&gt;</description></item><item><title>v1.0.47</title><link>/project/releases/v1.0.47/</link><pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate><guid>/project/releases/v1.0.47/</guid><description>&lt;h2 id="whats-new"&gt;
+	What&amp;rsquo;s New
+&lt;/h2&gt;
+&lt;h2 id="-general"&gt;
+	🔤 General
+&lt;/h2&gt;
+&lt;h2 id="-meshery-ui"&gt;
+	🖥 Meshery UI
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;fix ui build . due to mui-tree esm mismatch @aabidsofi19 (#20262)&lt;/li&gt;
+&lt;li&gt;Get rid of model and model id from connections and link using model reference @aabidsofi19 (#20261)&lt;/li&gt;
+&lt;li&gt;Fix Connection and credential creation and retrieval for local provider @aabidsofi19 (#20259)&lt;/li&gt;
+&lt;li&gt;[Docs] Update discussion forum link @iyush05 (#20235)&lt;/li&gt;
+&lt;li&gt;Add Telemetry support with Grafana dashboards and Prometheus metrics @aabidsofi19 (#20161)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-maintenance"&gt;
+	🧰 Maintenance
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Add Telemetry support with Grafana dashboards and Prometheus metrics @aabidsofi19 (#20161)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-documentation"&gt;
+	📖 Documentation
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;[Docs] Update discussion forum link @iyush05 (#20235)&lt;/li&gt;
+&lt;li&gt;Add Telemetry support with Grafana dashboards and Prometheus metrics @aabidsofi19 (#20161)&lt;/li&gt;
+&lt;li&gt;[Docs] Align extension header icons across documentation pages @vedant21-ctr (#20255)&lt;/li&gt;
+&lt;li&gt;Create index.md @YASHMAHAKAL (#20254)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-contributors"&gt;
+	👨🏽‍💻 Contributors
+&lt;/h2&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@YASHMAHAKAL, @aabidsofi19, @alexquincy, @iyush05, @leecalcote, @sangramrath, @saurabhraghuvanshii and @vedant21-ctr&lt;/p&gt;</description></item><item><title>v1.0.45</title><link>/project/releases/v1.0.45/</link><pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate><guid>/project/releases/v1.0.45/</guid><description>&lt;h2 id="whats-new"&gt;
+	What&amp;rsquo;s New
+&lt;/h2&gt;
+&lt;h2 id="-general"&gt;
+	🔤 General
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Bump go.mongodb.org/mongo-driver from 1.17.6 to 1.17.7 in /server/policies/wasm @[dependabot[bot]](&lt;a href="https://github.com/apps/dependabot"&gt;https://github.com/apps/dependabot&lt;/a&gt;) (#20154)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-meshery-cli"&gt;
+	⌨️ Meshery CLI
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;[uuid] Restore gofrs/uuid (reverse 3384af41); pin schemas v1.3.13 + meshkit v1.0.16 @ritzorama (#20177)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-meshery-ui"&gt;
+	🖥 Meshery UI
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;fix(ui): prevent Connections icon from disappearing when Lifecycle menu is collapsed @KumarNirupam1 (#20096)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-maintenance"&gt;
+	🧰 Maintenance
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Bump github.com/containerd/containerd from 1.7.32 to 1.7.33 @[dependabot[bot]](&lt;a href="https://github.com/apps/dependabot"&gt;https://github.com/apps/dependabot&lt;/a&gt;) (#20156)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-contributors"&gt;
+	👨🏽‍💻 Contributors
+&lt;/h2&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@KumarNirupam1, @fitzergerald, @jamieplu, @leecalcote, @miacycle, @rishiraj38, @ritzorama and [dependabot[bot]](&lt;a href="https://github.com/apps/dependabot"&gt;https://github.com/apps/dependabot&lt;/a&gt;)&lt;/p&gt;</description></item><item><title>v1.0.44</title><link>/project/releases/v1.0.44/</link><pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate><guid>/project/releases/v1.0.44/</guid><description>&lt;h2 id="whats-new"&gt;
+	What&amp;rsquo;s New
+&lt;/h2&gt;
+&lt;h2 id="-general"&gt;
+	🔤 General
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Bump github.com/containerd/containerd from 1.7.32 to 1.7.33 in /server/policies/wasm @[dependabot[bot]](&lt;a href="https://github.com/apps/dependabot"&gt;https://github.com/apps/dependabot&lt;/a&gt;) (#20153)&lt;/li&gt;
+&lt;li&gt;refactor(server): remove obsolete WASM filter startup seeding @ishwar170695 (#20057)&lt;/li&gt;
+&lt;li&gt;fix:[UI]resolve missing logo for AWS API Gateway model @aprv10 (#19498)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-meshery-cli"&gt;
+	⌨️ Meshery CLI
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;refactor: migrate UUID library from gofrs/uuid to google/uuid @leecalcote (#20166)&lt;/li&gt;
+&lt;li&gt;refactor: consolidate ownership property naming to &amp;lsquo;owner&amp;rsquo; @leecalcote (#20147)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-meshery-ui"&gt;
+	🖥 Meshery UI
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;fix: resolve Create a Model E2E test failure (Local - chromium-local-provider) @KhushamBansal (#20164)&lt;/li&gt;
+&lt;li&gt;Enhance connection registration backend and ux @aabidsofi19 (#20089)&lt;/li&gt;
+&lt;li&gt;Bump undici in /ui @[dependabot[bot]](&lt;a href="https://github.com/apps/dependabot"&gt;https://github.com/apps/dependabot&lt;/a&gt;) (#20152)&lt;/li&gt;
+&lt;li&gt;[UI] Increase Vertical Spacing Between Left Navigation Menu Items @NSTKrishna (#20124)&lt;/li&gt;
+&lt;li&gt;[UI] Add new extensions, fix links, and update logos on extensions page. @KhushamBansal (#20132)&lt;/li&gt;
+&lt;li&gt;[UI] Make permission error page responsive, remove logo and add role descriptions @rishiraj38 (#20099)&lt;/li&gt;
+&lt;li&gt;[UI] Make permission error page responsive, remove logo, add role descriptions @leecalcote (#20112)&lt;/li&gt;
+&lt;li&gt;[UI] Align Registry modal sidebar toggle with main Navigator @udita-0707 (#20094)&lt;/li&gt;
+&lt;li&gt;Bump form-data from 4.0.5 to 4.0.6 in /provider-ui @[dependabot[bot]](&lt;a href="https://github.com/apps/dependabot"&gt;https://github.com/apps/dependabot&lt;/a&gt;) (#20106)&lt;/li&gt;
+&lt;li&gt;Bump js-yaml from 4.1.1 to 4.2.0 in /provider-ui @[dependabot[bot]](&lt;a href="https://github.com/apps/dependabot"&gt;https://github.com/apps/dependabot&lt;/a&gt;) (#20107)&lt;/li&gt;
+&lt;li&gt;Bump form-data from 4.0.5 to 4.0.6 in /ui @[dependabot[bot]](&lt;a href="https://github.com/apps/dependabot"&gt;https://github.com/apps/dependabot&lt;/a&gt;) (#20105)&lt;/li&gt;
+&lt;li&gt;fix [UI] : maintain circular hover state for registry info icon @Salmaan-M (#20048)&lt;/li&gt;
+&lt;li&gt;[UI] Fix: Registry layout in Settings Page @KhushamBansal (#20090)&lt;/li&gt;
+&lt;li&gt;fix: registry dialog box z-index @KhushamBansal (#20064)&lt;/li&gt;
+&lt;li&gt;fix: layout of component details in registry @KhushamBansal (#20063)&lt;/li&gt;
+&lt;li&gt;fix: overflow in registry page @KhushamBansal (#20047)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-maintenance"&gt;
+	🧰 Maintenance
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Bump undici in /ui @[dependabot[bot]](&lt;a href="https://github.com/apps/dependabot"&gt;https://github.com/apps/dependabot&lt;/a&gt;) (#20152)&lt;/li&gt;
+&lt;li&gt;refactor: consolidate ownership property naming to &amp;lsquo;owner&amp;rsquo; @leecalcote (#20147)&lt;/li&gt;
+&lt;li&gt;ci(docs): pin peaceiris/actions-gh-pages to v4.0.0 to fix intermittent deploy failures @[copilot-swe-agent[bot]](&lt;a href="https://github.com/apps/copilot-swe-agent"&gt;https://github.com/apps/copilot-swe-agent&lt;/a&gt;) (#20111)&lt;/li&gt;
+&lt;li&gt;Bump form-data from 4.0.5 to 4.0.6 in /provider-ui @[dependabot[bot]](&lt;a href="https://github.com/apps/dependabot"&gt;https://github.com/apps/dependabot&lt;/a&gt;) (#20106)&lt;/li&gt;
+&lt;li&gt;Bump js-yaml from 4.1.1 to 4.2.0 in /provider-ui @[dependabot[bot]](&lt;a href="https://github.com/apps/dependabot"&gt;https://github.com/apps/dependabot&lt;/a&gt;) (#20107)&lt;/li&gt;
+&lt;li&gt;Bump form-data from 4.0.5 to 4.0.6 in /ui @[dependabot[bot]](&lt;a href="https://github.com/apps/dependabot"&gt;https://github.com/apps/dependabot&lt;/a&gt;) (#20105)&lt;/li&gt;
+&lt;li&gt;[CI] Recreate Discussion Forum data sync workflow @PragalvaXFREZ (#20101)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-documentation"&gt;
+	📖 Documentation
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;refactor: consolidate ownership property naming to &amp;lsquo;owner&amp;rsquo; @leecalcote (#20147)&lt;/li&gt;
+&lt;li&gt;introduction for Uzair Hameed @uzairhameed (#20146)&lt;/li&gt;
+&lt;li&gt;Add Naitik&amp;rsquo;s attendance and introduction @naitikcodes15 (#20145)&lt;/li&gt;
+&lt;li&gt;Add attendance record for Sahil Paul @sahillpaul (#20144)&lt;/li&gt;
+&lt;li&gt;Add introductory note from Sulagna @suzy-g38 (#20143)&lt;/li&gt;
+&lt;li&gt;Create AbhishekTentiwala.md @AbhishekTentiwala (#20142)&lt;/li&gt;
+&lt;li&gt;Add introduction of Dhruvesh Mishra to Meshery @dhruveshmishra (#20141)&lt;/li&gt;
+&lt;li&gt;Create parthGartan.md @PARTH-TUSSLE (#20140)&lt;/li&gt;
+&lt;li&gt;Add introduction for Pragalva Sapkota @PragalvaXFREZ (#20139)&lt;/li&gt;
+&lt;li&gt;[docs]: update meshery-academy hyperlink and wording @banana-three-join (#20126)&lt;/li&gt;
+&lt;li&gt;Create index.md @YASHMAHAKAL (#20128)&lt;/li&gt;
+&lt;li&gt;docs: fix make docker target to docker-build @Daniel-1600 (#20093)&lt;/li&gt;
+&lt;li&gt;[Docs] Bringing Back Discussion Forum Shortcodes @PragalvaXFREZ (#20100)&lt;/li&gt;
+&lt;li&gt;Fix wording for clarity in Artifact Hub tutorial @chellej (#20095)&lt;/li&gt;
+&lt;li&gt;Create introduction file for Suhrid Marwah @suhr25 (#20052)&lt;/li&gt;
+&lt;li&gt;[Docs] Add Aamod&amp;rsquo;s Introduction @Aamod-Dev (#20051)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-contributors"&gt;
+	👨🏽‍💻 Contributors
+&lt;/h2&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@Aamod-Dev, @AbhishekTentiwala, @Copilot, @Daniel-1600, @KhushamBansal, @NSTKrishna, @PARTH-TUSSLE, @PragalvaXFREZ, @Salmaan-M, @YASHMAHAKAL, @aabidsofi19, @alexquincy, @aprv10, @arjunmehta-git, @banana-three-join, @chellej, @dependabot[bot], @dhruveshmishra, @fitzergerald, @ishwar170695, @jamieplu, @leecalcote, @marblom007, @meshery-ci, @naitikcodes15, @rishiraj38, @ritzorama, @sahillpaul, @saurabhraghuvanshii, @suhr25, @suttonskate, @suzy-g38, @udita-0707, @uzairhameed, @winkletinkle, [copilot-swe-agent[bot]](&lt;a href="https://github.com/apps/copilot-swe-agent"&gt;https://github.com/apps/copilot-swe-agent&lt;/a&gt;) and [dependabot[bot]](&lt;a href="https://github.com/apps/dependabot"&gt;https://github.com/apps/dependabot&lt;/a&gt;)&lt;/p&gt;</description></item><item><title>v1.0.43</title><link>/project/releases/v1.0.43/</link><pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate><guid>/project/releases/v1.0.43/</guid><description>&lt;h2 id="whats-new"&gt;
+	What&amp;rsquo;s New
+&lt;/h2&gt;
+&lt;h2 id="-general"&gt;
+	🔤 General
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Bump shell-quote from 1.8.3 to 1.8.4 in /install/docker-extension/ui @[dependabot[bot]](&lt;a href="https://github.com/apps/dependabot"&gt;https://github.com/apps/dependabot&lt;/a&gt;) (#19948)&lt;/li&gt;
+&lt;li&gt;[Docs] Fix broken mesheryctl reference page anchor links @[copilot-swe-agent[bot]](&lt;a href="https://github.com/apps/copilot-swe-agent"&gt;https://github.com/apps/copilot-swe-agent&lt;/a&gt;) (#20029)&lt;/li&gt;
+&lt;li&gt;Update MAINTAINERS.md: Add Mericio&amp;rsquo;s last name and adjust table formatting. @simihablo (#20005)&lt;/li&gt;
+&lt;li&gt;fix(tests): remove seeding assertions from MapPreferencePersister test @ishwar170695 (#19602)&lt;/li&gt;
+&lt;li&gt;Update integrations-updater.yml @marblom007 (#20002)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-meshery-cli"&gt;
+	⌨️ Meshery CLI
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Restucture docs and fix 404 path resolve, toggle relative Url to false @CodexRaunak (#19997)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-meshery-ui"&gt;
+	🖥 Meshery UI
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;[UI] Clear stale permission keys and workspace on organization switch @rishiraj38 (#20032)&lt;/li&gt;
+&lt;li&gt;[UI] Fix: Registry Models tab — components and relationships not clickable / deeplinking broken @YASHMAHAKAL (#20038)&lt;/li&gt;
+&lt;li&gt;fix: deeplinking to specific relationship definitions @KhushamBansal (#20033)&lt;/li&gt;
+&lt;li&gt;[UI] Preserve TreeView event bubbling in RelationshipTree @[copilot-swe-agent[bot]](&lt;a href="https://github.com/apps/copilot-swe-agent"&gt;https://github.com/apps/copilot-swe-agent&lt;/a&gt;) (#20041)&lt;/li&gt;
+&lt;li&gt;[UI] Fix Extensions page card layout and logo visibility in dark mode @KhushamBansal (#20030)&lt;/li&gt;
+&lt;li&gt;[UI] fix: correctly display and format total counts in registry tabs @KhushamBansal (#20031)&lt;/li&gt;
+&lt;li&gt;[UI] Migrate selected icons from local assets to sistent @KhushamBansal (#19924)&lt;/li&gt;
+&lt;li&gt;fix(kanvas): prevent blank canvas when reopening v1beta3 designs @Bakul2006 (#19965)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-maintenance"&gt;
+	🧰 Maintenance
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Add sparse checkout @CodexRaunak (#19998)&lt;/li&gt;
+&lt;li&gt;Update hugo.yml @CodexRaunak (#20007)&lt;/li&gt;
+&lt;li&gt;ci(docs): sparse, blobless checkout for Hugo Pages deploy @leecalcote (#20004)&lt;/li&gt;
+&lt;li&gt;CI: Bump notify-providers to include additional provider @sarajkrishnasingh (#20000)&lt;/li&gt;
+&lt;li&gt;Restucture docs and fix 404 path resolve, toggle relative Url to false @CodexRaunak (#19997)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-documentation"&gt;
+	📖 Documentation
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;[Docs] Fix broken Credential Schema hyperlink @emphor11 (#19990)&lt;/li&gt;
+&lt;li&gt;Revise description for Academies extension @winkletinkle (#20026)&lt;/li&gt;
+&lt;li&gt;[Docs] Add attendance for Mohit Yadav @mohityadav8 (#20028)&lt;/li&gt;
+&lt;li&gt;Fix link to meshery-academy in documentation @marblom007 (#20027)&lt;/li&gt;
+&lt;li&gt;My introduction in meeting notes @padmasri-web (#20024)&lt;/li&gt;
+&lt;li&gt;Create sulagna @suzy-g38 (#20023)&lt;/li&gt;
+&lt;li&gt;Add introduction for Arjun in meetings documentation @arj-co (#20022)&lt;/li&gt;
+&lt;li&gt;docs: add bhumika attendance for newcomers meeting week-of-06-11-2026 @bhumikadangayach (#20021)&lt;/li&gt;
+&lt;li&gt;Add Jayy Salunke&amp;rsquo;s introduction for the meeting @Jayyy19 (#20019)&lt;/li&gt;
+&lt;li&gt;Create kumar-nirupam-attendance.md @KUMARNiru007 (#20018)&lt;/li&gt;
+&lt;li&gt;Create introduction file for Shruti Jain @Shruti2110-coder (#20017)&lt;/li&gt;
+&lt;li&gt;Create Siddhi.md @siddhitripathi25 (#20016)&lt;/li&gt;
+&lt;li&gt;Add introduction for Akshat Singhai @akshatsinghai6682-sketch (#20015)&lt;/li&gt;
+&lt;li&gt;Create Yash.md @YASHMAHAKAL (#20014)&lt;/li&gt;
+&lt;li&gt;Update _index.md @simihablo (#20013)&lt;/li&gt;
+&lt;li&gt;Update _index.md @fitzergerald (#20003)&lt;/li&gt;
+&lt;li&gt;Restucture docs and fix 404 path resolve, toggle relative Url to false @CodexRaunak (#19997)&lt;/li&gt;
+&lt;li&gt;Create index.md @YASHMAHAKAL (#19993)&lt;/li&gt;
+&lt;li&gt;[Docs] Fix broken mesheryctl registry hyperlinks in registry concept … @aprv10 (#19988)&lt;/li&gt;
+&lt;li&gt;fix: improve mobile search experience @Sbragul26 (#19881)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-contributors"&gt;
+	👨🏽‍💻 Contributors
+&lt;/h2&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@Bakul2006, @CodexRaunak, @Copilot, @Jayyy19, @KUMARNiru007, @KhushamBansal, @Sbragul26, @Shruti2110-coder, @YASHMAHAKAL, @aabidsofi19, @akshatsinghai6682-sketch, @alexquincy, @aprv10, @arj-co, @arjunmehta-git, @bhumikadangayach, @emphor11, @fitzergerald, @hortison, @ishwar170695, @leecalcote, @marblom007, @meshery-ci, @mohityadav8, @padmasri-web, @pontusringblom, @rishiraj38, @ritzorama, @sarajkrishnasingh, @saurabhraghuvanshii, @siddhitripathi25, @simihablo, @suzy-g38, @winkletinkle, @yi-nuo426, [copilot-swe-agent[bot]](&lt;a href="https://github.com/apps/copilot-swe-agent"&gt;https://github.com/apps/copilot-swe-agent&lt;/a&gt;) and [dependabot[bot]](&lt;a href="https://github.com/apps/dependabot"&gt;https://github.com/apps/dependabot&lt;/a&gt;)&lt;/p&gt;</description></item><item><title>v1.0.42</title><link>/project/releases/v1.0.42/</link><pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate><guid>/project/releases/v1.0.42/</guid><description>&lt;h2 id="whats-new"&gt;
+	What&amp;rsquo;s New
+&lt;/h2&gt;
+&lt;h2 id="-general"&gt;
+	🔤 General
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;fix(extensions): use filepath.Join for local provider package location @leecalcote (#19984)&lt;/li&gt;
+&lt;li&gt;[CI] Restore CodeQL uploads and add failure observability @[copilot-swe-agent[bot]](&lt;a href="https://github.com/apps/copilot-swe-agent"&gt;https://github.com/apps/copilot-swe-agent&lt;/a&gt;) (#19972)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-meshery-ui"&gt;
+	🖥 Meshery UI
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Add support for installing extensions in local provider @aabidsofi19 (#19956)&lt;/li&gt;
+&lt;li&gt;fix(extensions): symmetric local-provider install/remove + fix server unit test @leecalcote (#19971)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-maintenance"&gt;
+	🧰 Maintenance
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Upgrade CodeQL action versions to v4 @marblom007 (#19983)&lt;/li&gt;
+&lt;li&gt;Exclude old docs versions @leecalcote (#19981)&lt;/li&gt;
+&lt;li&gt;[CI] Make docs preview pruning resilient to concurrent gh-pages pushes @leecalcote (#19979)&lt;/li&gt;
+&lt;li&gt;Update codeql.yml @simihablo (#19980)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-documentation"&gt;
+	📖 Documentation
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;docs(sidebar): animated caret toggle and emphasize parent nav items @hortison (#19977)&lt;/li&gt;
+&lt;li&gt;[Docs] Expand security vulnerabilities catalog with published CVEs @leecalcote (#19976)&lt;/li&gt;
+&lt;li&gt;Update security vulnerability reporting email address @simihablo (#19974)&lt;/li&gt;
+&lt;li&gt;[Docs] Render the documentation 404 page cleanly at any path @leecalcote (#19975)&lt;/li&gt;
+&lt;li&gt;[Docs] Meshery production deployment considerations @leecalcote (#19973)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-security"&gt;
+	🔒 Security
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Exclude old docs versions @leecalcote (#19981)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-contributors"&gt;
+	👨🏽‍💻 Contributors
+&lt;/h2&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@Copilot, @aabidsofi19, @fitzergerald, @hortison, @leecalcote, @marblom007, @pontusringblom, @simihablo, @winkletinkle, @yi-nuo426 and [copilot-swe-agent[bot]](&lt;a href="https://github.com/apps/copilot-swe-agent"&gt;https://github.com/apps/copilot-swe-agent&lt;/a&gt;)&lt;/p&gt;</description></item><item><title>v1.0.41</title><link>/project/releases/v1.0.41/</link><pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate><guid>/project/releases/v1.0.41/</guid><description>&lt;h2 id="whats-new"&gt;
+	What&amp;rsquo;s New
+&lt;/h2&gt;
+&lt;h2 id="-general"&gt;
+	🔤 General
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;[Server] Skip namespace creation for cluster-scoped resources in CreateK8sResource @shivv23 (#19959)&lt;/li&gt;
+&lt;li&gt;ci: fix &lt;code&gt;secrets&lt;/code&gt; context used in &lt;code&gt;if:&lt;/code&gt; condition in build-and-preview-docs workflow @[copilot-swe-agent[bot]](&lt;a href="https://github.com/apps/copilot-swe-agent"&gt;https://github.com/apps/copilot-swe-agent&lt;/a&gt;) (#19952)&lt;/li&gt;
+&lt;li&gt;[CI] Use sparse checkout for docs preview builds @[copilot-swe-agent[bot]](&lt;a href="https://github.com/apps/copilot-swe-agent"&gt;https://github.com/apps/copilot-swe-agent&lt;/a&gt;) (#19950)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-meshery-ui"&gt;
+	🖥 Meshery UI
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;fix(ui): resolve undefined @sistent/sistent imports that crash on render @leecalcote (#19961)&lt;/li&gt;
+&lt;li&gt;fix(ui): repair DeleteForever icon re-export crashing Connections page @leecalcote (#19957)&lt;/li&gt;
+&lt;li&gt;Fix [UI] : Backspace/Delete behavior in adapter configuration fields @Salmaan-M (#19644)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-maintenance"&gt;
+	🧰 Maintenance
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix docs preview workflow @CodexRaunak (#19960)&lt;/li&gt;
+&lt;li&gt;enhance orgs section @hortison (#19949)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-documentation"&gt;
+	📖 Documentation
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;docs: add Organizations logical concept; expand provider extensibility @leecalcote (#19951)&lt;/li&gt;
+&lt;li&gt;enhance orgs section @hortison (#19949)&lt;/li&gt;
+&lt;li&gt;[Docs] Restore &amp;ldquo;Exposing Meshery service(LoadBalancer)&amp;rdquo; section, fix dead GKE anchor @CodeAhmedJamil (#19946)&lt;/li&gt;
+&lt;li&gt;[Docs] Add Meshery installation guide for DigitalOcean @CodeAhmedJamil (#19944)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-contributors"&gt;
+	👨🏽‍💻 Contributors
+&lt;/h2&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@CodeAhmedJamil, @CodexRaunak, @Copilot, @Salmaan-M, @banana-three-join, @fitzergerald, @hortison, @jamieplu, @leecalcote, @meshery-ci, @shivv23, @simihablo, @winkletinkle and [copilot-swe-agent[bot]](&lt;a href="https://github.com/apps/copilot-swe-agent"&gt;https://github.com/apps/copilot-swe-agent&lt;/a&gt;)&lt;/p&gt;</description></item><item><title>v1.0.40</title><link>/project/releases/v1.0.40/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><guid>/project/releases/v1.0.40/</guid><description>&lt;h2 id="whats-new"&gt;
+	What&amp;rsquo;s New
+&lt;/h2&gt;
+&lt;h2 id="-general"&gt;
+	🔤 General
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix printf-style logging calls flagged by go vet @leecalcote (#19941)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-meshery-ui"&gt;
+	🖥 Meshery UI
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;[UI] Harden design import file resolution @ritzorama (#19940)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-documentation"&gt;
+	📖 Documentation
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Provider UI: Ensure remote provider preselection is honored @leecalcote (#19938)&lt;/li&gt;
+&lt;li&gt;[UI] Harden design import file resolution @ritzorama (#19940)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-contributors"&gt;
+	👨🏽‍💻 Contributors
+&lt;/h2&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@CodeAhmedJamil, @arjunmehta-git, @fitzergerald, @leecalcote, @ritzorama and @yi-nuo426&lt;/p&gt;</description></item><item><title>v1.0.39</title><link>/project/releases/v1.0.39/</link><pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate><guid>/project/releases/v1.0.39/</guid><description>&lt;h2 id="whats-new"&gt;
+	What&amp;rsquo;s New
+&lt;/h2&gt;
+&lt;h2 id="-general"&gt;
+	🔤 General
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;[Server] Preserve credential ID when saving connections @chaitanyamedidar (#19883)&lt;/li&gt;
+&lt;li&gt;fix(designs): render imported designs misclassified as legacy v1alpha2 @leecalcote (#19934)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-meshery-cli"&gt;
+	⌨️ Meshery CLI
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;[mesheryctl] (fix) corrected mesheryctl design undeploy output when used without args @ishwar170695 (#19894)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-meshery-ui"&gt;
+	🖥 Meshery UI
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;[UI] fix: resolve maximum call stack exceeded crash in Registry Models → Relationships tree @YASHMAHAKAL (#19922)&lt;/li&gt;
+&lt;li&gt;fix organization switcher selection and permission typo @rishiraj38 (#19933)&lt;/li&gt;
+&lt;li&gt;[UI] Migrate multiple icons to Sistent @KhushamBansal (#19808)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-maintenance"&gt;
+	🧰 Maintenance
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Remove inputs parameter from notify-providers workflow @leecalcote (#19914)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-contributors"&gt;
+	👨🏽‍💻 Contributors
+&lt;/h2&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@KhushamBansal, @PragalvaXFREZ, @YASHMAHAKAL, @aabidsofi19, @chaitanyamedidar, @fitzergerald, @ishwar170695, @leecalcote, @rishiraj38 and @yi-nuo426&lt;/p&gt;</description></item><item><title>v1.0.36</title><link>/project/releases/v1.0.36/</link><pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate><guid>/project/releases/v1.0.36/</guid><description>&lt;h2 id="whats-new"&gt;
+	What&amp;rsquo;s New
+&lt;/h2&gt;
+&lt;h2 id="-general"&gt;
+	🔤 General
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Revert deletion of install/deployment_yamls (970902f19de) @[copilot-swe-agent[bot]](&lt;a href="https://github.com/apps/copilot-swe-agent"&gt;https://github.com/apps/copilot-swe-agent&lt;/a&gt;) (#19864)&lt;/li&gt;
+&lt;li&gt;docs: reverse ROADMAP.MD version order @Annonnymmousss (#19816)&lt;/li&gt;
+&lt;li&gt;server: return structured MeshKit errors for workspace input validation @YASHvardhanVashistha (#19842)&lt;/li&gt;
+&lt;li&gt;fix(docker): ship policy-engine wasm and wasm_exec.js in server image @marblom007 (#19851)&lt;/li&gt;
+&lt;li&gt;Update adopters list with F5 and Mario Arriaga @hamza-mohd (#19832)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-meshery-cli"&gt;
+	⌨️ Meshery CLI
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;[Chore] Bump Go version to 1.26.4 @PragalvaXFREZ (#19876)&lt;/li&gt;
+&lt;li&gt;[Chore] Upgrade to go 1.26 @CodeAhmedJamil (#19906)&lt;/li&gt;
+&lt;li&gt;[CI] Makefile: Enhance names of remote provider targets @arjunmehta-git (#19879)&lt;/li&gt;
+&lt;li&gt;Revert &amp;ldquo;refactor(performance): drop service-mesh-performance for schemas-native types&amp;rdquo; @PragalvaXFREZ (#19878)&lt;/li&gt;
+&lt;li&gt;refactor(performance): drop service-mesh-performance for schemas-native types @leecalcote (#19605)&lt;/li&gt;
+&lt;li&gt;Stop updating k8s deployment in provider sync script @NSTKrishna (#19861)&lt;/li&gt;
+&lt;li&gt;[Server] Add OD10 Ventures remote provider @chaitanyamedidar (#19858)&lt;/li&gt;
+&lt;li&gt;[mesheryctl] model: fix typos, misspelled function names, and corrupted license header @somaz94 (#19835)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-meshery-ui"&gt;
+	🖥 Meshery UI
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;[UI] Align performance profile hooks with schemas @PragalvaXFREZ (#19889)&lt;/li&gt;
+&lt;li&gt;[Provider UI] Fix InfoOutlinedIcon import from Sistent @rishiraj38 (#19890)&lt;/li&gt;
+&lt;li&gt;[CI] Makefile: provider ui setup @miacycle (#19882)&lt;/li&gt;
+&lt;li&gt;[CI] Makefile: Enhance names of remote provider targets @arjunmehta-git (#19879)&lt;/li&gt;
+&lt;li&gt;Revert &amp;ldquo;refactor(performance): drop service-mesh-performance for schemas-native types&amp;rdquo; @PragalvaXFREZ (#19878)&lt;/li&gt;
+&lt;li&gt;refactor(performance): drop service-mesh-performance for schemas-native types @leecalcote (#19605)&lt;/li&gt;
+&lt;li&gt;Bump @rjsf/utils from 6.5.3 to 6.6.1 in /provider-ui @[dependabot[bot]](&lt;a href="https://github.com/apps/dependabot"&gt;https://github.com/apps/dependabot&lt;/a&gt;) (#19850)&lt;/li&gt;
+&lt;li&gt;Bump start-server-and-test from 3.0.5 to 3.0.6 in /provider-ui @[dependabot[bot]](&lt;a href="https://github.com/apps/dependabot"&gt;https://github.com/apps/dependabot&lt;/a&gt;) (#19849)&lt;/li&gt;
+&lt;li&gt;Bump @sistent/sistent from 0.21.14 to 0.21.18 in /provider-ui @[dependabot[bot]](&lt;a href="https://github.com/apps/dependabot"&gt;https://github.com/apps/dependabot&lt;/a&gt;) (#19844)&lt;/li&gt;
+&lt;li&gt;Bump start-server-and-test from 3.0.5 to 3.0.6 in /ui @[dependabot[bot]](&lt;a href="https://github.com/apps/dependabot"&gt;https://github.com/apps/dependabot&lt;/a&gt;) (#19845)&lt;/li&gt;
+&lt;li&gt;Bump next from 16.2.6 to 16.2.7 in /provider-ui @[dependabot[bot]](&lt;a href="https://github.com/apps/dependabot"&gt;https://github.com/apps/dependabot&lt;/a&gt;) (#19848)&lt;/li&gt;
+&lt;li&gt;Bump react-moment from 1.2.2 to 2.0.2 in /ui @[dependabot[bot]](&lt;a href="https://github.com/apps/dependabot"&gt;https://github.com/apps/dependabot&lt;/a&gt;) (#19843)&lt;/li&gt;
+&lt;li&gt;Bump @sistent/sistent from 0.21.15 to 0.21.18 in /ui @[dependabot[bot]](&lt;a href="https://github.com/apps/dependabot"&gt;https://github.com/apps/dependabot&lt;/a&gt;) (#19847)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-maintenance"&gt;
+	🧰 Maintenance
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;[Chore] Bump Go version to 1.26.4 @PragalvaXFREZ (#19876)&lt;/li&gt;
+&lt;li&gt;[Chore] Upgrade to go 1.26 @CodeAhmedJamil (#19906)&lt;/li&gt;
+&lt;li&gt;[CI] Makefile: Enhance names of remote provider targets @arjunmehta-git (#19879)&lt;/li&gt;
+&lt;li&gt;Revert &amp;ldquo;refactor(performance): drop service-mesh-performance for schemas-native types&amp;rdquo; @PragalvaXFREZ (#19878)&lt;/li&gt;
+&lt;li&gt;refactor(performance): drop service-mesh-performance for schemas-native types @leecalcote (#19605)&lt;/li&gt;
+&lt;li&gt;Bump @rjsf/utils from 6.5.3 to 6.6.1 in /provider-ui @[dependabot[bot]](&lt;a href="https://github.com/apps/dependabot"&gt;https://github.com/apps/dependabot&lt;/a&gt;) (#19850)&lt;/li&gt;
+&lt;li&gt;Bump start-server-and-test from 3.0.5 to 3.0.6 in /provider-ui @[dependabot[bot]](&lt;a href="https://github.com/apps/dependabot"&gt;https://github.com/apps/dependabot&lt;/a&gt;) (#19849)&lt;/li&gt;
+&lt;li&gt;Bump @sistent/sistent from 0.21.14 to 0.21.18 in /provider-ui @[dependabot[bot]](&lt;a href="https://github.com/apps/dependabot"&gt;https://github.com/apps/dependabot&lt;/a&gt;) (#19844)&lt;/li&gt;
+&lt;li&gt;Bump start-server-and-test from 3.0.5 to 3.0.6 in /ui @[dependabot[bot]](&lt;a href="https://github.com/apps/dependabot"&gt;https://github.com/apps/dependabot&lt;/a&gt;) (#19845)&lt;/li&gt;
+&lt;li&gt;Bump next from 16.2.6 to 16.2.7 in /provider-ui @[dependabot[bot]](&lt;a href="https://github.com/apps/dependabot"&gt;https://github.com/apps/dependabot&lt;/a&gt;) (#19848)&lt;/li&gt;
+&lt;li&gt;Bump react-moment from 1.2.2 to 2.0.2 in /ui @[dependabot[bot]](&lt;a href="https://github.com/apps/dependabot"&gt;https://github.com/apps/dependabot&lt;/a&gt;) (#19843)&lt;/li&gt;
+&lt;li&gt;Bump @sistent/sistent from 0.21.15 to 0.21.18 in /ui @[dependabot[bot]](&lt;a href="https://github.com/apps/dependabot"&gt;https://github.com/apps/dependabot&lt;/a&gt;) (#19847)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-documentation"&gt;
+	📖 Documentation
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Bump Go version to 1.26.4 @Junnygram (#19907)&lt;/li&gt;
+&lt;li&gt;[Chore] Bump Go version to 1.26.4 @PragalvaXFREZ (#19876)&lt;/li&gt;
+&lt;li&gt;[Chore] Upgrade to go 1.26 @CodeAhmedJamil (#19906)&lt;/li&gt;
+&lt;li&gt;Add newcomer introduction for Abhishek Maurya @AbhishekMauryaGEEK (#19905)&lt;/li&gt;
+&lt;li&gt;Add Chaitanya-Medidar.md with introduction @chaitanyamedidar (#19904)&lt;/li&gt;
+&lt;li&gt;Add Akash Sah&amp;rsquo;s introduction in meeting notes @SuperNeom (#19903)&lt;/li&gt;
+&lt;li&gt;Add attendance and introduction @areychana (#19902)&lt;/li&gt;
+&lt;li&gt;Added Yashi Agrawal&amp;rsquo;s attendance @11yashiagrawal (#19901)&lt;/li&gt;
+&lt;li&gt;Create Karthik Rajan&amp;rsquo;s introduction in markdown @karthik120710 (#19900)&lt;/li&gt;
+&lt;li&gt;first PR @PARTH-TUSSLE (#19899)&lt;/li&gt;
+&lt;li&gt;Add introduction for Harsh Kumar Sharma @harshhsharmaa57 (#19898)&lt;/li&gt;
+&lt;li&gt;Add Bakul Bansal&amp;rsquo;s introduction to meetings documentation @Bakul2006 (#19896)&lt;/li&gt;
+&lt;li&gt;Create yash-mahakal.md @YASHMAHAKAL (#19895)&lt;/li&gt;
+&lt;li&gt;Add introduction for Vedant Kowdiki @Vex-15 (#19897)&lt;/li&gt;
+&lt;li&gt;docs: Improve Artifact Hub publishing tutorial @Bhumikagarggg (#19886)&lt;/li&gt;
+&lt;li&gt;Add attendance instructions to meeting notes @YASHMAHAKAL (#19885)&lt;/li&gt;
+&lt;li&gt;Remove unsupported versions from version select dropdown (v0.8) @Katotodan (#19839)&lt;/li&gt;
+&lt;li&gt;Remove unsupported versions from version select dropdown (v0.9) @Katotodan (#19838)&lt;/li&gt;
+&lt;li&gt;[Docs] Incomplete migration to npm-managed Hugo in docs/Makefile @hebypaul (#19576)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-contributors"&gt;
+	👨🏽‍💻 Contributors
+&lt;/h2&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@11yashiagrawal, @AbhishekMauryaGEEK, @Annonnymmousss, @Bakul2006, @Bhumikagarggg, @CodeAhmedJamil, @CodexRaunak, @Copilot, @Junnygram, @Katotodan, @NSTKrishna, @PARTH-TUSSLE, @PragalvaXFREZ, @SuperNeom, @Vex-15, @YASHMAHAKAL, @YASHvardhanVashistha, @alexquincy, @areychana, @arjunmehta-git, @banana-three-join, @chaitanyamedidar, @dependabot[bot], @fitzergerald, @hamza-mohd, @harshhsharmaa57, @hebypaul, @hortison, @jamieplu, @karthik120710, @leecalcote, @marblom007, @meshery-ci, @miacycle, @pontusringblom, @rishiraj38, @ritzorama, @simihablo, @somaz94, @suttonskate, @winkletinkle, @yi-nuo426, [copilot-swe-agent[bot]](&lt;a href="https://github.com/apps/copilot-swe-agent"&gt;https://github.com/apps/copilot-swe-agent&lt;/a&gt;) and [dependabot[bot]](&lt;a href="https://github.com/apps/dependabot"&gt;https://github.com/apps/dependabot&lt;/a&gt;)&lt;/p&gt;</description></item><item><title>v1.0.37</title><link>/project/releases/v1.0.37/</link><pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate><guid>/project/releases/v1.0.37/</guid><description>&lt;h2 id="whats-new"&gt;
+	What&amp;rsquo;s New
+&lt;/h2&gt;
+&lt;h2 id="-general"&gt;
+	🔤 General
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;chore/upgrade/meshery schemas @CodeAhmedJamil (#19912)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-meshery-cli"&gt;
+	⌨️ Meshery CLI
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;[Performance] Recreate schema-native performance refactor @PragalvaXFREZ (#19909)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-meshery-ui"&gt;
+	🖥 Meshery UI
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;[UI] Add Evaluate button for design relationship evaluation @rishiraj38 (#19798)&lt;/li&gt;
+&lt;li&gt;[chore] schemas: upgrade to v1.3.7 @CodeAhmedJamil (#19911)&lt;/li&gt;
+&lt;li&gt;[UI] Remove leftover console.log from CurrentSession @ManojLamani (#19910)&lt;/li&gt;
+&lt;li&gt;[UI] Use filter name in delete confirmation modal @ishwar170695 (#19872)&lt;/li&gt;
+&lt;li&gt;[Performance] Recreate schema-native performance refactor @PragalvaXFREZ (#19909)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-contributors"&gt;
+	👨🏽‍💻 Contributors
+&lt;/h2&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@CodeAhmedJamil, @ManojLamani, @PragalvaXFREZ, @hamza-mohd, @ishwar170695, @marblom007, @rishiraj38 and @winkletinkle&lt;/p&gt;</description></item><item><title>v1.0.38</title><link>/project/releases/v1.0.38/</link><pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate><guid>/project/releases/v1.0.38/</guid><description>&lt;h2 id="whats-new"&gt;
+	What&amp;rsquo;s New
+&lt;/h2&gt;
+&lt;h2 id="-general"&gt;
+	🔤 General
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;[Chore] update go.mod for wasm policy @leecalcote (#19913)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-meshery-cli"&gt;
+	⌨️ Meshery CLI
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;[Server] Fix typos in error messages @shivv23 (#19868)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-meshery-ui"&gt;
+	🖥 Meshery UI
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;[Server] Fix typos in error messages @shivv23 (#19868)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-maintenance"&gt;
+	🧰 Maintenance
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;[Server] Fix typos in error messages @shivv23 (#19868)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-documentation"&gt;
+	📖 Documentation
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;[Server] Fix typos in error messages @shivv23 (#19868)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-contributors"&gt;
+	👨🏽‍💻 Contributors
+&lt;/h2&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@PragalvaXFREZ, @leecalcote, @marblom007, @shivv23 and @winkletinkle&lt;/p&gt;</description></item><item><title>v1.0.35</title><link>/project/releases/v1.0.35/</link><pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate><guid>/project/releases/v1.0.35/</guid><description>&lt;h2 id="whats-new"&gt;
+	What&amp;rsquo;s New
+&lt;/h2&gt;
+&lt;h2 id="-general"&gt;
+	🔤 General
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;[CI] Makefile: wasm-engine target compatibility with macOS @jamieplu (#19821)&lt;/li&gt;
+&lt;li&gt;fix wasm build @aabidsofi19 (#19817)&lt;/li&gt;
+&lt;li&gt;Add repository details for each maintainer @miacycle (#19773)&lt;/li&gt;
+&lt;li&gt;Governance scaled out @miacycle (#19772)&lt;/li&gt;
+&lt;li&gt;fix(make): run go mod tidy before wasm-engine build @ShubhamSoni09 (#19814)&lt;/li&gt;
+&lt;li&gt;[Server] Add doc.go for native Go policy engine @guan404ming (#19271)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-meshery-cli"&gt;
+	⌨️ Meshery CLI
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;fix(mesheryctl): bridge v1beta3 design parse output to v1beta1 for evaluation @PragalvaXFREZ (#19804)&lt;/li&gt;
+&lt;li&gt;Compile Golang Policy Engine to WASM @guan404ming (#18939)&lt;/li&gt;
+&lt;li&gt;[mesheryctl] add csv support on relationship generate @Omkar-Ugal (#19640)&lt;/li&gt;
+&lt;li&gt;add design evaluate subcommand @aabidsofi19 (#17897)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-meshery-ui"&gt;
+	🖥 Meshery UI
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;[UI] Fix deploy icon color in design action menu @Rajesh-Nagarajan-11 (#19789)&lt;/li&gt;
+&lt;li&gt;Compile Golang Policy Engine to WASM @guan404ming (#18939)&lt;/li&gt;
+&lt;li&gt;[CI] Update .nvmrc files from Node 18 to Node 22 to match engines field @Pranav-d33 (#19511)&lt;/li&gt;
+&lt;li&gt;Fix discard button error background @Rajesh-Nagarajan-11 (#19788)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-maintenance"&gt;
+	🧰 Maintenance
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;feat: add hardened runner step to GitHub workflows for enhanced security @ianrwhitney (#19818)&lt;/li&gt;
+&lt;li&gt;Compile Golang Policy Engine to WASM @guan404ming (#18939)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-documentation"&gt;
+	📖 Documentation
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Compile Golang Policy Engine to WASM @guan404ming (#18939)&lt;/li&gt;
+&lt;li&gt;docs: Fix broken Contributing to Meshery UI links @aprv10 (#19803)&lt;/li&gt;
+&lt;li&gt;[Docs] Add high-level overview of native Go policy engine @guan404ming (#19150)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-contributors"&gt;
+	👨🏽‍💻 Contributors
+&lt;/h2&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@Omkar-Ugal, @PragalvaXFREZ, @Pranav-d33, @Rajesh-Nagarajan-11, @ShubhamSoni09, @aabidsofi19, @aprv10, @arjunmehta-git, @banana-three-join, @fitzergerald, @guan404ming, @hortison, @ianrwhitney, @jamieplu, @leecalcote, @marblom007, @meshery-ci, @miacycle, @pontusringblom, @suttonskate, @yi-nuo426 and ShubhamSoni09&lt;/p&gt;</description></item><item><title>v1.0.34</title><link>/project/releases/v1.0.34/</link><pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate><guid>/project/releases/v1.0.34/</guid><description>&lt;h2 id="whats-new"&gt;
+	What&amp;rsquo;s New
+&lt;/h2&gt;
+&lt;h2 id="-general"&gt;
+	🔤 General
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;fix(server): detach goroutine context in NotifySmOfConnectionStatusChange @ishwar170695 (#19757)&lt;/li&gt;
+&lt;li&gt;[Docker] Build docker extension UI on the build platform @[copilot-swe-agent[bot]](&lt;a href="https://github.com/apps/copilot-swe-agent"&gt;https://github.com/apps/copilot-swe-agent&lt;/a&gt;) (#19743)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-meshery-ui"&gt;
+	🖥 Meshery UI
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;[UI] Name dashboard resource table-config functions as hooks (fix Rules-of-Hooks in CRDs tab) @marblom007 (#19767)&lt;/li&gt;
+&lt;li&gt;Fix: [UI] Clicking any of the specified Icons leads to error @KhushamBansal (#19744)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-maintenance"&gt;
+	🧰 Maintenance
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;[CI] Reconcile playground Deployment env from manifest on every release @leecalcote (#19748)&lt;/li&gt;
+&lt;li&gt;fix(workflow): set explicit ref on cross-repo workflow dispatch @hamza-mohd (#19742)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-documentation"&gt;
+	📖 Documentation
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Add meeting notes for Mahesh Nandigam @Mahesh-Nandigam (#19764)&lt;/li&gt;
+&lt;li&gt;Add introduction for Abhishek Maurya to meeting notes @AbhishekMauryaGEEK (#19763)&lt;/li&gt;
+&lt;li&gt;Add Omkar&amp;rsquo;s introduction in a new markdown file @Omkar-Ugal (#19762)&lt;/li&gt;
+&lt;li&gt;Mark attendance for week of 05-28-2026 @Shreesha001 (#19761)&lt;/li&gt;
+&lt;li&gt;Harsh-Kumar-Sharma @harshhsharmaa57 (#19760)&lt;/li&gt;
+&lt;li&gt;Add Yash-Mahakal.md with introductory text @YASHMAHAKAL (#19759)&lt;/li&gt;
+&lt;li&gt;docs: fix documentation typos and terminology inconsistencies @AbhishekMauryaGEEK (#19752)&lt;/li&gt;
+&lt;li&gt;Add attendance instructions to meeting notes @YASHMAHAKAL (#19749)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-contributors"&gt;
+	👨🏽‍💻 Contributors
+&lt;/h2&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@AbhishekMauryaGEEK, @Copilot, @KhushamBansal, @Mahesh-Nandigam, @Omkar-Ugal, @Shreesha001, @YASHMAHAKAL, @alexquincy, @carlosriosilva, @fitzergerald, @hamza-mohd, @harshhsharmaa57, @hortison, @ishwar170695, @jamieplu, @leecalcote, @marblom007, @ritzorama and [copilot-swe-agent[bot]](&lt;a href="https://github.com/apps/copilot-swe-agent"&gt;https://github.com/apps/copilot-swe-agent&lt;/a&gt;)&lt;/p&gt;</description></item><item><title>v1.0.33</title><link>/project/releases/v1.0.33/</link><pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate><guid>/project/releases/v1.0.33/</guid><description>&lt;h2 id="whats-new"&gt;
+	What&amp;rsquo;s New
+&lt;/h2&gt;
+&lt;h2 id="-general"&gt;
+	🔤 General
+&lt;/h2&gt;
+&lt;h2 id="-meshery-ui"&gt;
+	🖥 Meshery UI
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;fix: migrate Box and Grid2 system props to sx for MUI v9 @Rajesh-Nagarajan-11 (#19732)&lt;/li&gt;
+&lt;li&gt;[UI] Migrate Sistent icon imports to append Icon suffix @rishiraj38 (#19735)&lt;/li&gt;
+&lt;li&gt;chore(deps): bump meshery/schemas to v1.3.1 @hamza-mohd (#19740)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-maintenance"&gt;
+	🧰 Maintenance
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Remove persisted files except previews @CodexRaunak (#19733)&lt;/li&gt;
+&lt;li&gt;Fix docs versions @CodexRaunak (#19736)&lt;/li&gt;
+&lt;li&gt;[CI] Harden release notes publishing against release/tag race conditions @[copilot-swe-agent[bot]](&lt;a href="https://github.com/apps/copilot-swe-agent"&gt;https://github.com/apps/copilot-swe-agent&lt;/a&gt;) (#19738)&lt;/li&gt;
+&lt;li&gt;fix: reorder steps for downloading Allure artifact in workflow @ianrwhitney (#19739)&lt;/li&gt;
+&lt;li&gt;fix: update path for downloading Allure results in workflow @ianrwhitney (#19729)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-documentation"&gt;
+	📖 Documentation
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix docs versions @CodexRaunak (#19736)&lt;/li&gt;
+&lt;li&gt;Update the go.mod to use the latest layer5io/docs @CodexRaunak (#19728)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-contributors"&gt;
+	👨🏽‍💻 Contributors
+&lt;/h2&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@CodeAhmedJamil, @CodexRaunak, @Copilot, @Rajesh-Nagarajan-11, @banana-three-join, @fitzergerald, @hamza-mohd, @hortison, @ianrwhitney, @jamieplu, @leecalcote, @rishiraj38, @ritzorama, @winkletinkle and [copilot-swe-agent[bot]](&lt;a href="https://github.com/apps/copilot-swe-agent"&gt;https://github.com/apps/copilot-swe-agent&lt;/a&gt;)&lt;/p&gt;</description></item><item><title>v1.0.31</title><link>/project/releases/v1.0.31/</link><pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate><guid>/project/releases/v1.0.31/</guid><description>&lt;h2 id="whats-new"&gt;
+	What&amp;rsquo;s New
+&lt;/h2&gt;
+&lt;h2 id="-general"&gt;
+	🔤 General
+&lt;/h2&gt;
+&lt;h2 id="-meshery-ui"&gt;
+	🖥 Meshery UI
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;[UI] Wait for E2E route readiness @arjunmehta-git (#19690)&lt;/li&gt;
+&lt;li&gt;chore: consolidate CI workflows and enhance end-to-end testing setup @ianrwhitney (#19549)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-maintenance"&gt;
+	🧰 Maintenance
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;[UI] Wait for E2E route readiness @arjunmehta-git (#19690)&lt;/li&gt;
+&lt;li&gt;chore: update end-to-end test command in CI workflow @ianrwhitney (#19717)&lt;/li&gt;
+&lt;li&gt;chore: consolidate CI workflows and enhance end-to-end testing setup @ianrwhitney (#19549)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-documentation"&gt;
+	📖 Documentation
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;[docs] Fix tab rendering in meshery-metrics.md @Sbragul26 (#19590)&lt;/li&gt;
+&lt;li&gt;[Docs] Remove Meshery UI references outside extensions docs @AnjaliMishra1st (#19710)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-contributors"&gt;
+	👨🏽‍💻 Contributors
+&lt;/h2&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@AnjaliMishra1st, @CodexRaunak, @Sbragul26, @arjunmehta-git, @carlosriosilva, @fitzergerald, @ianrwhitney, @leecalcote, @miacycle, @winkletinkle and @yi-nuo426&lt;/p&gt;</description></item><item><title>v1.0.32</title><link>/project/releases/v1.0.32/</link><pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate><guid>/project/releases/v1.0.32/</guid><description>&lt;h2 id="whats-new"&gt;
+	What&amp;rsquo;s New
+&lt;/h2&gt;
+&lt;h2 id="-general"&gt;
+	🔤 General
+&lt;/h2&gt;
+&lt;h2 id="-meshery-cli"&gt;
+	⌨️ Meshery CLI
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;[mesheryctl] Refactor: rename &amp;ndash;register flag to &amp;ndash;skip-registration @YASHMAHAKAL (#19709)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-meshery-ui"&gt;
+	🖥 Meshery UI
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;fix(ui): remove render-time state sync causing ConnectionTable loop (… @Faisal77666 (#19719)&lt;/li&gt;
+&lt;li&gt;provider-ui: refresh provider chooser layout and per-provider info popover @hortison (#19711)&lt;/li&gt;
+&lt;li&gt;Bump tmp from 0.2.5 to 0.2.6 in /ui @[dependabot[bot]](&lt;a href="https://github.com/apps/dependabot"&gt;https://github.com/apps/dependabot&lt;/a&gt;) (#19716)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-maintenance"&gt;
+	🧰 Maintenance
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;provider-ui: refresh provider chooser layout and per-provider info popover @hortison (#19711)&lt;/li&gt;
+&lt;li&gt;Bump tmp from 0.2.5 to 0.2.6 in /ui @[dependabot[bot]](&lt;a href="https://github.com/apps/dependabot"&gt;https://github.com/apps/dependabot&lt;/a&gt;) (#19716)&lt;/li&gt;
+&lt;li&gt;fix: disable S1003 check in golangci-lint configuration @lekaf974 (#19723)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-documentation"&gt;
+	📖 Documentation
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;[mesheryctl] Refactor: rename &amp;ndash;register flag to &amp;ndash;skip-registration @YASHMAHAKAL (#19709)&lt;/li&gt;
+&lt;li&gt;Disable Publishing categories and tags page @CodexRaunak (#19713)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-contributors"&gt;
+	👨🏽‍💻 Contributors
+&lt;/h2&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@CodexRaunak, @Faisal77666, @YASHMAHAKAL, @hortison, @leecalcote, @lekaf974, @marblom007, @suttonskate, @yi-nuo426, Faisal and [dependabot[bot]](&lt;a href="https://github.com/apps/dependabot"&gt;https://github.com/apps/dependabot&lt;/a&gt;)&lt;/p&gt;</description></item><item><title>v1.0.30</title><link>/project/releases/v1.0.30/</link><pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate><guid>/project/releases/v1.0.30/</guid><description>&lt;h2 id="whats-new"&gt;
+	What&amp;rsquo;s New
+&lt;/h2&gt;
+&lt;h2 id="-general"&gt;
+	🔤 General
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Update provider capabilities for new version @marblom007 (#19685)&lt;/li&gt;
+&lt;li&gt;Roadmap: v1.2 and v1.3 clarifications @hamza-mohd (#19679)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-meshery-cli"&gt;
+	⌨️ Meshery CLI
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;[mesheryctl] Remove unused manifest URL fixtures @miacycle (#19687)&lt;/li&gt;
+&lt;li&gt;[Chore] Server: Update perf profile package location @miacycle (#19686)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-meshery-ui"&gt;
+	🖥 Meshery UI
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;[ui][docs] decouple meshmap extension test from name and refresh extension imagery @miacycle (#19689)&lt;/li&gt;
+&lt;li&gt;[UI] Harden E2E dashboard navigation @arjunmehta-git (#19688)&lt;/li&gt;
+&lt;li&gt;[Chore] Server: Update perf profile package location @miacycle (#19686)&lt;/li&gt;
+&lt;li&gt;[Docs] More cleanup @yi-nuo426 (#19684)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-maintenance"&gt;
+	🧰 Maintenance
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;chore: remove direct references from workflows @miacycle (#19693)&lt;/li&gt;
+&lt;li&gt;[ci skip] Update golangci-lint configuration to enable staticcheck checks @hortison (#19692)&lt;/li&gt;
+&lt;li&gt;[UI] Harden E2E dashboard navigation @arjunmehta-git (#19688)&lt;/li&gt;
+&lt;li&gt;[Chore] Server: Update perf profile package location @miacycle (#19686)&lt;/li&gt;
+&lt;li&gt;[Docs] Cleanup tutorials @hortison (#19680)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-documentation"&gt;
+	📖 Documentation
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;[Docs] fix: REST API references page to use Qanelas Soft font @Utkarsh-0304 (#19639)&lt;/li&gt;
+&lt;li&gt;[ui][docs] decouple meshmap extension test from name and refresh extension imagery @miacycle (#19689)&lt;/li&gt;
+&lt;li&gt;[Docs] Add creating-a-meshery-design guide; replace vendor refs with Design Configurator @yi-nuo426 (#19181)&lt;/li&gt;
+&lt;li&gt;[Docs] More cleanup @yi-nuo426 (#19684)&lt;/li&gt;
+&lt;li&gt;[Docs] cleanup v0.8 and v0.9 static list @arjunmehta-git (#19681)&lt;/li&gt;
+&lt;li&gt;[Docs] Cleanup tutorials @hortison (#19680)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-contributors"&gt;
+	👨🏽‍💻 Contributors
+&lt;/h2&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@Utkarsh-0304, @arjunmehta-git, @carlosriosilva, @fitzergerald, @hamza-mohd, @hortison, @leecalcote, @marblom007, @meshery-ci, @miacycle and @yi-nuo426&lt;/p&gt;</description></item><item><title>v1.0.26</title><link>/project/releases/v1.0.26/</link><pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate><guid>/project/releases/v1.0.26/</guid><description>&lt;h2 id="whats-new"&gt;
 	What&amp;rsquo;s New
 &lt;/h2&gt;
 &lt;h2 id="-general"&gt;
@@ -246,7 +1460,7 @@ efactor: update fallback image paths and remove unused SVG files\ @fitzergerald 
 &lt;ul&gt;
 &lt;li&gt;Remove wrk2 load-generator support completely @ritzorama (#19539)&lt;/li&gt;
 &lt;li&gt;chore/update org reference @ritzorama (#19537)&lt;/li&gt;
-&lt;li&gt;Delete .github/workflows/kanvas.yml @CodexRaunak (#19532)&lt;/li&gt;
+&lt;li&gt;Delete .github/workflows/.yml @CodexRaunak (#19532)&lt;/li&gt;
 &lt;li&gt;[UI] Fix failing Vitest test suite @[copilot-swe-agent[bot]](&lt;a href="https://github.com/apps/copilot-swe-agent"&gt;https://github.com/apps/copilot-swe-agent&lt;/a&gt;) (#19472)&lt;/li&gt;
 &lt;li&gt;chore(ui/e2e): migrate remaining E2E specs to TypeScript @UtkarshAnandd (#19454)&lt;/li&gt;
 &lt;li&gt;[CI] Cleanup: Delete workflow that pushes e2e results to Docs @leecalcote (#19415)&lt;/li&gt;
@@ -468,7 +1682,7 @@ efactor: update fallback image paths and remove unused SVG files\ @fitzergerald 
 	📖 Documentation
 &lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Revert \Remove kanvas docs from extensions\ @ritzorama (#19182)&lt;/li&gt;
+&lt;li&gt;Revert \Remove docs from extensions\ @ritzorama (#19182)&lt;/li&gt;
 &lt;li&gt;[Docs] Update adapter contributor proto path and generation command @chaitanyamedidar (#19189)&lt;/li&gt;
 &lt;li&gt;Added Heby&amp;rsquo;s Introduction profile to meetings documentation @hebypaul (#19187)&lt;/li&gt;
 &lt;li&gt;Add Marryam Abid&amp;rsquo;s introduction to meetings doc @marryamabid (#19178)&lt;/li&gt;
@@ -514,7 +1728,7 @@ efactor: update fallback image paths and remove unused SVG files\ @fitzergerald 
 &lt;li&gt;chore(deps): Bump react-dom from 19.2.4 to 19.2.5 in /provider-ui @[dependabot[bot]](&lt;a href="https://github.com/apps/dependabot"&gt;https://github.com/apps/dependabot&lt;/a&gt;) (#19041)&lt;/li&gt;
 &lt;li&gt;chore(deps-dev): Bump eslint-config-next from 16.2.1 to 16.2.4 in /provider-ui @[dependabot[bot]](&lt;a href="https://github.com/apps/dependabot"&gt;https://github.com/apps/dependabot&lt;/a&gt;) (#19044)&lt;/li&gt;
 &lt;li&gt;chore(deps): Bump @sistent/sistent from 0.20.0 to 0.20.2 in /ui @[dependabot[bot]](&lt;a href="https://github.com/apps/dependabot"&gt;https://github.com/apps/dependabot&lt;/a&gt;) (#19034)&lt;/li&gt;
-&lt;li&gt;[UI] Remove Kanvas pop-up @PragalvaXFREZ (#19032)&lt;/li&gt;
+&lt;li&gt;[UI] Remove pop-up @PragalvaXFREZ (#19032)&lt;/li&gt;
 &lt;li&gt;fix(style): fix #15202 help button hover @dipanshurdev (#17834)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-maintenance"&gt;
@@ -812,7 +2026,7 @@ efactor: update fallback image paths and remove unused SVG files\ @fitzergerald 
 &lt;li&gt;[Chore]: Update to Sistent v0.18.8 @l5io (#18799)&lt;/li&gt;
 &lt;li&gt;[UI] Fix remote component eslint formatting @[copilot-swe-agent[bot]](&lt;a href="https://github.com/apps/copilot-swe-agent"&gt;https://github.com/apps/copilot-swe-agent&lt;/a&gt;) (#18800)&lt;/li&gt;
 &lt;li&gt;fix(extensions): forward upstream responses and return JSON errors @alexquincy (#18803)&lt;/li&gt;
-&lt;li&gt;[UI] expose Kanvas shared runtime deps via remote-component @yi-nuo426 (#18798)&lt;/li&gt;
+&lt;li&gt;[UI] expose shared runtime deps via remote-component @yi-nuo426 (#18798)&lt;/li&gt;
 &lt;li&gt;[UI] Migrate @mui icon/system imports to @sistent/sistent @alexquincy (#18796)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-maintenance"&gt;
@@ -1322,8 +2536,8 @@ efactor: update fallback image paths and remove unused SVG files\ @fitzergerald 
 &lt;li&gt;[UI] Remove underlines from dashboard card titles @Rajesh-Nagarajan-11 (#18481)&lt;/li&gt;
 &lt;li&gt;[UI] Restore absolute RTK Query API paths after schemas API re-export @[copilot-swe-agent[bot]](&lt;a href="https://github.com/apps/copilot-swe-agent"&gt;https://github.com/apps/copilot-swe-agent&lt;/a&gt;) (#18474)&lt;/li&gt;
 &lt;li&gt;fix: log actual autocomplete error in Meshery settings component @HsrRaza (#18444)&lt;/li&gt;
-&lt;li&gt;fix: export KeyboardArrowDownRounded for Kanvas @leecalcote (#18472)&lt;/li&gt;
-&lt;li&gt;chore: expose @mui/material, ajv, and @rjsf/* to Kanvas extension @leecalcote (#18465)&lt;/li&gt;
+&lt;li&gt;fix: export KeyboardArrowDownRounded for @leecalcote (#18472)&lt;/li&gt;
+&lt;li&gt;chore: expose @mui/material, ajv, and @rjsf/* to extension @leecalcote (#18465)&lt;/li&gt;
 &lt;li&gt;[UI] Replace eval() with static handler map in MeshSync Stepper @YASHMAHAKAL (#18430)&lt;/li&gt;
 &lt;li&gt;[UI] Remove redundant parseInt wrapping Math.ceil in Environments @boergeson (#18437)&lt;/li&gt;
 &lt;li&gt;UI code cleanse: GraphQL resilience, session handling, testing infra, Sistent migration @simihablo (#18393)&lt;/li&gt;
@@ -1336,7 +2550,7 @@ efactor: update fallback image paths and remove unused SVG files\ @fitzergerald 
 &lt;li&gt;Bump yaml in /ui @[dependabot[bot]](&lt;a href="https://github.com/apps/dependabot"&gt;https://github.com/apps/dependabot&lt;/a&gt;) (#18212)&lt;/li&gt;
 &lt;li&gt;fix: replace core warnings with console warnings in CI environment @ianrwhitney (#18202)&lt;/li&gt;
 &lt;li&gt;[UI] Fix Catalog Info modal two-column layout @Rajesh-Nagarajan-11 (#18352)&lt;/li&gt;
-&lt;li&gt;[UI] Add missing remote component dependencies for Kanvas extension @guan404ming (#18262)&lt;/li&gt;
+&lt;li&gt;[UI] Add missing remote component dependencies for extension @guan404ming (#18262)&lt;/li&gt;
 &lt;li&gt;fix: Next lint fix provider UI part 2 @ianrwhitney (#18250)&lt;/li&gt;
 &lt;li&gt;Next lint fix provider UI @ianrwhitney (#18248)&lt;/li&gt;
 &lt;li&gt;UI: adjust workspace imports @leecalcote (#18180)&lt;/li&gt;
@@ -1370,7 +2584,7 @@ efactor: update fallback image paths and remove unused SVG files\ @fitzergerald 
 &lt;ul&gt;
 &lt;li&gt;fix: mesheryctl e2e system start @lekaf974 (#18477)&lt;/li&gt;
 &lt;li&gt;chore(ui/e2e): Migrate Core UI and User Settings tests to TypeScript @ashwanisingh011 (#17449)&lt;/li&gt;
-&lt;li&gt;chore: expose @mui/material, ajv, and @rjsf/* to Kanvas extension @leecalcote (#18465)&lt;/li&gt;
+&lt;li&gt;chore: expose @mui/material, ajv, and @rjsf/* to extension @leecalcote (#18465)&lt;/li&gt;
 &lt;li&gt;fix(docs): update file paths in tests to use temporary directories @lekaf974 (#18440)&lt;/li&gt;
 &lt;li&gt;Bump lodash-es from 4.17.23 to 4.18.1 in /ui @[dependabot[bot]](&lt;a href="https://github.com/apps/dependabot"&gt;https://github.com/apps/dependabot&lt;/a&gt;) (#18395)&lt;/li&gt;
 &lt;li&gt;Decompose build UI workflow @ianrwhitney (#17339)&lt;/li&gt;
@@ -3226,7 +4440,7 @@ efactor: update fallback image paths and remove unused SVG files\ @fitzergerald 
 &lt;ul&gt;
 &lt;li&gt;Bump mdast-util-to-hast from 13.2.0 to 13.2.1 in /ui @dependabot (#16539)&lt;/li&gt;
 &lt;li&gt;fix(mesheryctl): remove extra space in model export usage text @Fireentity (#16622)&lt;/li&gt;
-&lt;li&gt;Update Kanvas-Snapshot action to v0.2.42 @jamieplu (#16635)&lt;/li&gt;
+&lt;li&gt;Update -Snapshot action to v0.2.42 @jamieplu (#16635)&lt;/li&gt;
 &lt;li&gt;test(mesheryctl): add e2e test for system dashboard @Ontiomacer (#16491)&lt;/li&gt;
 &lt;li&gt;Update ESLint GitHub Actions workflow @leecalcote (#16627)&lt;/li&gt;
 &lt;li&gt;Remove GITHUB_TOKEN from build workflow @aabidsofi19 (#16624)&lt;/li&gt;
@@ -3402,7 +4616,7 @@ efactor: update fallback image paths and remove unused SVG files\ @fitzergerald 
 	🖥 Meshery UI
 &lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;[server] Get rid of hardcoded kanvas channel @aabidsofi19 (#16502)&lt;/li&gt;
+&lt;li&gt;[server] Get rid of hardcoded channel @aabidsofi19 (#16502)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-contributors"&gt;
 	👨🏽‍💻 Contributors
@@ -4125,7 +5339,7 @@ efactor: update fallback image paths and remove unused SVG files\ @fitzergerald 
 &lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;[k8s] Create Kubernetes Health Probles (Liveness and Readiness Probes) for Meshery Server&amp;rsquo;s containers. @Babbili (#15874)&lt;/li&gt;
-&lt;li&gt;Adding Traefik Proxy architecture design in kanvas @PreciousDipe (#16182)&lt;/li&gt;
+&lt;li&gt;Adding Traefik Proxy architecture design in @PreciousDipe (#16182)&lt;/li&gt;
 &lt;li&gt;Create Deployable AWS managed services with Kubernetes orchestration design @AR-2910 (#16117)&lt;/li&gt;
 &lt;li&gt;[design] Add Helm-based ms-roles-rest (chart v0.0.11) @KatalKavya96 (#16129)&lt;/li&gt;
 &lt;li&gt;[design] Add Helm-based ms-payments-grpc (chart v0.0.11) @KatalKavya96 (#16130)&lt;/li&gt;
@@ -4880,7 +6094,7 @@ efactor: update fallback image paths and remove unused SVG files\ @fitzergerald 
 &lt;li&gt;Bump @sistent/sistent from 0.14.203 to 0.14.211 in /provider-ui @dependabot (#15507)&lt;/li&gt;
 &lt;li&gt;Bump next from 15.3.4 to 15.4.5 in /provider-ui @dependabot (#15504)&lt;/li&gt;
 &lt;li&gt;[Chore]: Update to Sistent v0.14.212 @l5io (#15511)&lt;/li&gt;
-&lt;li&gt;fix: registry icons depends on routing , causes trouble in fetching when used in kanvas @FaheemOnHub (#15473)&lt;/li&gt;
+&lt;li&gt;fix: registry icons depends on routing , causes trouble in fetching when used in @FaheemOnHub (#15473)&lt;/li&gt;
 &lt;li&gt;[Chore]: Update to Sistent v0.14.211 @l5io (#15469)&lt;/li&gt;
 &lt;li&gt;[CI] Stabilize go-testing-ci.yml Workflow by Fixing Flaky Tests @yash37158 (#15429)&lt;/li&gt;
 &lt;li&gt;[Chore]: Update to Sistent v0.14.210 @l5io (#15465)&lt;/li&gt;
@@ -5007,7 +6221,7 @@ efactor: update fallback image paths and remove unused SVG files\ @fitzergerald 
 &lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Bump form-data from 4.0.2 to 4.0.4 in /ui @dependabot (#15422)&lt;/li&gt;
-&lt;li&gt;fix: Workspace modal not rendering below 900px &amp;amp;&amp;amp; Not able to open workspace in kanvas below 900px @FaheemOnHub (#15318)&lt;/li&gt;
+&lt;li&gt;fix: Workspace modal not rendering below 900px &amp;amp;&amp;amp; Not able to open workspace in below 900px @FaheemOnHub (#15318)&lt;/li&gt;
 &lt;li&gt;[Chore]: Bump Sistent v0.14.208 @l5io (#15430)&lt;/li&gt;
 &lt;li&gt;[Chore]: Bump Sistent v0.14.207 @l5io (#15428)&lt;/li&gt;
 &lt;li&gt;[Chore]: Bump Sistent v0.14.206 @l5io (#15426)&lt;/li&gt;
@@ -5096,7 +6310,7 @@ efactor: update fallback image paths and remove unused SVG files\ @fitzergerald 
 &lt;li&gt;Jul 10 attendance @preston176 (#15352)&lt;/li&gt;
 &lt;li&gt;Marking My Attendance for week-of-07-07-2025 @codingdud (#15353)&lt;/li&gt;
 &lt;li&gt;Updated Creating model Documentation. @Darshan174 (#15315)&lt;/li&gt;
-&lt;li&gt;Docs: Refactor Kanvas guide into general extension troubleshooting @zihanKuang (#15248)&lt;/li&gt;
+&lt;li&gt;Docs: Refactor guide into general extension troubleshooting @zihanKuang (#15248)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-contributors"&gt;
 	👨🏽‍💻 Contributors
@@ -5737,7 +6951,7 @@ efactor: update fallback image paths and remove unused SVG files\ @fitzergerald 
 	🧰 Maintenance
 &lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Bump kanvas snapshot @CodeAhmedJamil (#14987)&lt;/li&gt;
+&lt;li&gt;Bump snapshot @CodeAhmedJamil (#14987)&lt;/li&gt;
 &lt;li&gt;fix: pr metadata save @ianrwhitney (#14928)&lt;/li&gt;
 &lt;li&gt;fix: remote provider flow @ianrwhitney (#14927)&lt;/li&gt;
 &lt;li&gt;fix: updated workflow @ianrwhitney (#14924)&lt;/li&gt;
@@ -6278,7 +7492,7 @@ efactor: update fallback image paths and remove unused SVG files\ @fitzergerald 
 &lt;li&gt;9b9ace1558000c1a16108477d7c59e27a08d8fdb Models generated and updated&lt;/li&gt;
 &lt;li&gt;2d885534a9f291aa13d91edf2c3f153a4f5c30fe Moved some api calls to telemetry, removed redundant useEffect&lt;/li&gt;
 &lt;li&gt;f1f9da38a33abe58d7c6d622187d51ce32de875c Promethues components axios fetch migrated to rtk query&lt;/li&gt;
-&lt;li&gt;add38b5f6bdd0aaa4f135280cf7db76ab3e98393 Update kanvas.yml&lt;/li&gt;
+&lt;li&gt;add38b5f6bdd0aaa4f135280cf7db76ab3e98393 Update .yml&lt;/li&gt;
 &lt;li&gt;0cb00689ba21516fa6885c2353446127223502ec [Docs] Generated documentation for Integration&lt;/li&gt;
 &lt;li&gt;d3d77ca67185d149d28cdf82a01f2a8717bcbfce [Docs] Generated documentation for Integration&lt;/li&gt;
 &lt;li&gt;9b8afcb5b4051fe30dfd3f5b55756c2494762fd7 [Docs] Generated documentation for Integration&lt;/li&gt;
@@ -6509,7 +7723,7 @@ efactor: update fallback image paths and remove unused SVG files\ @fitzergerald 
 	🖥 Meshery UI
 &lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;use view info component for kanvas @amitamrutiya (#14648)&lt;/li&gt;
+&lt;li&gt;use view info component for @amitamrutiya (#14648)&lt;/li&gt;
 &lt;li&gt;[Chore]: Bump Sistent v0.14.185 @l5io (#14646)&lt;/li&gt;
 &lt;li&gt;use both immutable and plain javascript for redux @amitamrutiya (#14645)&lt;/li&gt;
 &lt;/ul&gt;
@@ -6920,7 +8134,7 @@ efactor: update fallback image paths and remove unused SVG files\ @fitzergerald 
 	🖥 Meshery UI
 &lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Add Capabilities check for kanvas and support for proper navigation for designs @aabidsofi19 (#14500)&lt;/li&gt;
+&lt;li&gt;Add Capabilities check for and support for proper navigation for designs @aabidsofi19 (#14500)&lt;/li&gt;
 &lt;li&gt;fix filter crashes on non schema values @aabidsofi19 (#14505)&lt;/li&gt;
 &lt;li&gt;Chore: Rename Registry components. @ritzorama (#14497)&lt;/li&gt;
 &lt;li&gt;migrate _app component to functional based component @amitamrutiya (#14495)&lt;/li&gt;
@@ -7108,8 +8322,8 @@ efactor: update fallback image paths and remove unused SVG files\ @fitzergerald 
 &lt;li&gt;77e71b96532bd552609118d067a9c2d670432984 Merge branch &amp;lsquo;master&amp;rsquo; into design-test&lt;/li&gt;
 &lt;li&gt;6ba7d5cef7f7dbbfe61324a64d9a186d78d543d6 Merge branch &amp;lsquo;master&amp;rsquo; into design-test&lt;/li&gt;
 &lt;li&gt;d144b6e086190986795560df5802c6c0446979e0 Merge branch &amp;lsquo;master&amp;rsquo; into fix-notification-count&lt;/li&gt;
-&lt;li&gt;336fb7ce0b1d5fbdee685e7958105c7f9ced4fe1 Merge branch &amp;lsquo;master&amp;rsquo; into fix/extension_verify_kanvas_snapshot&lt;/li&gt;
-&lt;li&gt;a0a60aacfb604792dc45896daa37a581e3aed34f Merge branch &amp;lsquo;master&amp;rsquo; into fix/extension_verify_kanvas_snapshot&lt;/li&gt;
+&lt;li&gt;336fb7ce0b1d5fbdee685e7958105c7f9ced4fe1 Merge branch &amp;lsquo;master&amp;rsquo; into fix/extension_verify__snapshot&lt;/li&gt;
+&lt;li&gt;a0a60aacfb604792dc45896daa37a581e3aed34f Merge branch &amp;lsquo;master&amp;rsquo; into fix/extension_verify__snapshot&lt;/li&gt;
 &lt;li&gt;b04def15759874f2d609bcff9bf3115bb5f9552a Merge branch &amp;lsquo;master&amp;rsquo; into helloshiv01-patch-1-1&lt;/li&gt;
 &lt;li&gt;c1f9926537db774e334a66876170fe8a6448bc2c Merge branch &amp;lsquo;master&amp;rsquo; into master&lt;/li&gt;
 &lt;li&gt;d41b4fe2d7080394754e4cbd33044895b6dc892f Merge branch &amp;lsquo;master&amp;rsquo; into patch-1&lt;/li&gt;
@@ -7147,7 +8361,7 @@ efactor: update fallback image paths and remove unused SVG files\ @fitzergerald 
 &lt;li&gt;1fdacb8f8e72d162732bc06ce08b7c93b634de87 Merge pull request #14319 from amitamrutiya/update-typing-filter&lt;/li&gt;
 &lt;li&gt;32b76f9aed17dd92a15b58d62c42a68e68ebe5d5 Merge pull request #14331 from amitamrutiya/fix-notification-count&lt;/li&gt;
 &lt;li&gt;346a1988ab9a2d9a3c852df1ca1c0abb38dcf2ba Merge pull request #14332 from amitamrutiya/default-capabilites&lt;/li&gt;
-&lt;li&gt;d124bf069463025f70c0c13ebc1c7f6e87e4cf8a Merge pull request #14333 from vr-varad/fix/extension_verify_kanvas_snapshot&lt;/li&gt;
+&lt;li&gt;d124bf069463025f70c0c13ebc1c7f6e87e4cf8a Merge pull request #14333 from vr-varad/fix/extension_verify__snapshot&lt;/li&gt;
 &lt;li&gt;8596678bc3e065e0ba359debc2ff47c86123bcc2 Merge pull request #14335 from meshery/leecalcote/ci/send-mail-action&lt;/li&gt;
 &lt;li&gt;2b5d37fe7d470f6df4896e3740ed47d136107831 Merge pull request #14336 from Tanishq1604/ui-final-2&lt;/li&gt;
 &lt;li&gt;d27e7d6cf7b3958d95ab0efe6e2628fcdb6c8901 Merge pull request #14338 from meshery/revert-14217-dependabot/npm_and_yarn/provider-ui/eslint-9.23.0&lt;/li&gt;
@@ -7296,7 +8510,7 @@ efactor: update fallback image paths and remove unused SVG files\ @fitzergerald 
 	🖥 Meshery UI
 &lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;feat: list Kanvas Snapshot Helm Plugin in extension page @Aijeyomah (#14224)&lt;/li&gt;
+&lt;li&gt;feat: list Snapshot Helm Plugin in extension page @Aijeyomah (#14224)&lt;/li&gt;
 &lt;li&gt;show permission based on org changes @amitamrutiya (#14314)&lt;/li&gt;
 &lt;li&gt;[UI][Docs] Improved design export details @leecalcote (#14303)&lt;/li&gt;
 &lt;li&gt;fix: fix logout test flakiness @ianrwhitney (#14301)&lt;/li&gt;
@@ -8069,7 +9283,7 @@ emove border radius from all of the buttons\ @amitamrutiya (#13874)&lt;/li&gt;
 	📖 Documentation
 &lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;[docs/ux] Helm Kanvas Snapshot @theBeginner86 (#13650)&lt;/li&gt;
+&lt;li&gt;[docs/ux] Helm Snapshot @theBeginner86 (#13650)&lt;/li&gt;
 &lt;li&gt;fix(docs): remove incorrect diagram from Credentials page @zihanKuang (#13633)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-contributors"&gt;
@@ -8247,8 +9461,8 @@ emove border radius from all of the buttons\ @amitamrutiya (#13874)&lt;/li&gt;
 	🧰 Maintenance
 &lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Update kanvas.yml @aabidsofi19 (#13526)&lt;/li&gt;
-&lt;li&gt;Update kanvas.yml @aabidsofi19 (#13525)&lt;/li&gt;
+&lt;li&gt;Update .yml @aabidsofi19 (#13526)&lt;/li&gt;
+&lt;li&gt;Update .yml @aabidsofi19 (#13525)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-documentation"&gt;
 	📖 Documentation
@@ -8297,7 +9511,7 @@ emove border radius from all of the buttons\ @amitamrutiya (#13874)&lt;/li&gt;
 &lt;li&gt;Update vendor links @aabidsofi19 (#13475)&lt;/li&gt;
 &lt;li&gt;Fix: Corrected casing of &amp;lsquo;visibility&amp;rsquo; to maintain consistency @PR4NJ41 (#13471)&lt;/li&gt;
 &lt;li&gt;replace discuss link and rm Meshery yt links @vishalvivekm (#13459)&lt;/li&gt;
-&lt;li&gt;fix: onclick behaviour for the kanvas menu @amitamrutiya (#13458)&lt;/li&gt;
+&lt;li&gt;fix: onclick behaviour for the menu @amitamrutiya (#13458)&lt;/li&gt;
 &lt;li&gt;Migrating events endpoint to system endpoints @souvikinator (#13446)&lt;/li&gt;
 &lt;li&gt;[Chore]: Bump Sistent v0.14.150 @l5io (#13452)&lt;/li&gt;
 &lt;/ul&gt;
@@ -8324,7 +9538,7 @@ emove border radius from all of the buttons\ @amitamrutiya (#13874)&lt;/li&gt;
 &lt;li&gt;Ad gupta patch 2 @ad-gupta (#13499)&lt;/li&gt;
 &lt;li&gt;[Docs] fix a typo @weilirs (#13497)&lt;/li&gt;
 &lt;li&gt;Rename crds @aabidsofi19 (#13479)&lt;/li&gt;
-&lt;li&gt;chore: remove -n flag and update permalink file for helm kanvas snapshot @Aijeyomah (#13485)&lt;/li&gt;
+&lt;li&gt;chore: remove -n flag and update permalink file for helm snapshot @Aijeyomah (#13485)&lt;/li&gt;
 &lt;li&gt;marking-my-attendance-abhimanyu-27-jan @Abhimanyu004 (#13422)&lt;/li&gt;
 &lt;li&gt;Revert&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>v0.8.26</title><link>/project/releases/v0.8.26/</link><pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate><guid>/project/releases/v0.8.26/</guid><description>&lt;h2 id="whats-new"&gt;
@@ -9097,7 +10311,7 @@ emove border radius from all of the buttons\ @amitamrutiya (#13874)&lt;/li&gt;
 &lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Remove redundant commit author from model generator workflow @devhindo (#12955)&lt;/li&gt;
-&lt;li&gt;bump kanvas snapshot @aabidsofi19 (#12954)&lt;/li&gt;
+&lt;li&gt;bump snapshot @aabidsofi19 (#12954)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-documentation"&gt;
 	📖 Documentation
@@ -9108,7 +10322,7 @@ emove border radius from all of the buttons\ @amitamrutiya (#13874)&lt;/li&gt;
 &lt;li&gt;fixing typo in the meshync-crd-reference page @lhajouji (#12996)&lt;/li&gt;
 &lt;li&gt;fixing typo in the mesheryctl-registry-generate page @lhajouji (#12998)&lt;/li&gt;
 &lt;li&gt;[Docs] Semantic Components @leecalcote (#12937)&lt;/li&gt;
-&lt;li&gt;[Docs] Add documentation for kubectl and Helm Kanvas Snapshot extensions @leecalcote (#12936)&lt;/li&gt;
+&lt;li&gt;[Docs] Add documentation for kubectl and Helm Snapshot extensions @leecalcote (#12936)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-contributors"&gt;
 	👨🏽‍💻 Contributors
@@ -9231,7 +10445,7 @@ emove border radius from all of the buttons\ @amitamrutiya (#13874)&lt;/li&gt;
 	🧰 Maintenance
 &lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;bump kanvas-snapshot action @aabidsofi19 (#12895)&lt;/li&gt;
+&lt;li&gt;bump -snapshot action @aabidsofi19 (#12895)&lt;/li&gt;
 &lt;li&gt;Bump golang.org/x/crypto from 0.27.0 to 0.31.0 @dependabot (#12872)&lt;/li&gt;
 &lt;li&gt;Bump node-polyfill-webpack-plugin from 2.0.1 to 4.0.0 in /ui @dependabot (#12812)&lt;/li&gt;
 &lt;li&gt;Bump nanoid from 3.3.7 to 3.3.8 in /ui @dependabot (#12875)&lt;/li&gt;
@@ -9797,7 +11011,7 @@ emove border radius from all of the buttons\ @amitamrutiya (#13874)&lt;/li&gt;
 	🧰 Maintenance
 &lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;chore: upgrade kanvas snapshot @jerensl (#12664)&lt;/li&gt;
+&lt;li&gt;chore: upgrade snapshot @jerensl (#12664)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-documentation"&gt;
 	📖 Documentation
@@ -10391,7 +11605,7 @@ emove border radius from all of the buttons\ @amitamrutiya (#13874)&lt;/li&gt;
 	🧰 Maintenance
 &lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Rename meshmap.yml to kanvas.yml @vishalvivekm (#12496)&lt;/li&gt;
+&lt;li&gt;Rename meshmap.yml to .yml @vishalvivekm (#12496)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-documentation"&gt;
 	📖 Documentation
@@ -10755,7 +11969,7 @@ emove border radius from all of the buttons\ @amitamrutiya (#13874)&lt;/li&gt;
 &lt;li&gt;Bump eslint-config-next from 14.2.7 to 14.2.14 in /provider-ui @dependabot (#12202)&lt;/li&gt;
 &lt;li&gt;Bump @emotion/styled from 11.11.5 to 11.13.0 in /provider-ui @dependabot (#12203)&lt;/li&gt;
 &lt;li&gt;[Chore] E2E Tests: fix typo on test tag @jerensl (#12303)&lt;/li&gt;
-&lt;li&gt;upgrade kanvas snapshot action version @Aijeyomah (#12298)&lt;/li&gt;
+&lt;li&gt;upgrade snapshot action version @Aijeyomah (#12298)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-documentation"&gt;
 	📖 Documentation
@@ -11059,7 +12273,7 @@ emove border radius from all of the buttons\ @amitamrutiya (#13874)&lt;/li&gt;
 &lt;li&gt;Fix showing empty state in filters page after changing pages @Yashsharma1911 (#12152)&lt;/li&gt;
 &lt;li&gt;add loading variant for notistack snackbar @aabidsofi19 (#12150)&lt;/li&gt;
 &lt;li&gt;Fix unnecessary state update in designs and filters page @Yashsharma1911 (#12149)&lt;/li&gt;
-&lt;li&gt;chore(kanvas-snapshot): inject id for removing element on snapshot @jerensl (#12127)&lt;/li&gt;
+&lt;li&gt;chore(snapshot): inject id for removing element on snapshot @jerensl (#12127)&lt;/li&gt;
 &lt;li&gt;Fix undefined issue in performance profile @Yashsharma1911 (#12140)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-maintenance"&gt;
@@ -32996,7 +34210,7 @@ Conforming to Navigation Conformances @dhruv0000 (#1618)&lt;/li&gt;
 &lt;li&gt;Run preconfigured commands on Kubernetes with Istio.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Latest Release</title><link>/project/releases/latest/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/project/releases/latest/</guid><description>&lt;h2&gt;v1.0.28&lt;/h2&gt;</description></item><item><title>Roadmap v0.7.0</title><link>/project/releases/roadmap-v0.7/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/project/releases/roadmap-v0.7/</guid><description>&lt;p&gt;The proposed Meshery v0.7.0 Roadmap is listed by component. Use this thread to refine and hardened these plans and assignments. If you are interested in contributing to or leading any of these items, please comment below.&lt;/p&gt;
+&lt;/ul&gt;</description></item><item><title>Latest Release</title><link>/project/releases/latest/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/project/releases/latest/</guid><description>&lt;h2&gt;v1.0.55&lt;/h2&gt;</description></item><item><title>Roadmap v0.7.0</title><link>/project/releases/roadmap-v0.7/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/project/releases/roadmap-v0.7/</guid><description>&lt;p&gt;The proposed Meshery v0.7.0 Roadmap is listed by component. Use this thread to refine and hardened these plans and assignments. If you are interested in contributing to or leading any of these items, please comment below.&lt;/p&gt;
 &lt;p&gt;See the &lt;a href="https://docs.google.com/presentation/d/1SQMfyu5shjpGKlYONdVzOtd7UYTgLWBcgUvHMLCZ2tY/edit#slide=id.g1044af767ce_0_164"&gt;Meshery Architecture deck&lt;/a&gt; for additional visual designs and functional specifications.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Legend:&lt;/strong&gt;&lt;/p&gt;
 &lt;blockquote&gt;
