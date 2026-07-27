@@ -52,7 +52,8 @@ var exportCmd = &cobra.Command{
 You can specify the design by its name or ID and optionally define the type of design.
 The command also supports specifying an output directory where the exported design will be saved.
 By default, the exported design will be saved in the current directory. The different types of design
-type allowed are oci, original, and current. The default design type is current.`,
+type allowed are oci, original, and current. The default design type is current.
+Find more information at: https://docs.meshery.io/reference/references/mesheryctl/design/export`,
 	Example: `
 // Export a design with a specific ID
 mesheryctl design export [pattern-name | ID]

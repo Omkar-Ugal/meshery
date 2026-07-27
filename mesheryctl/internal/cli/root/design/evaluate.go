@@ -52,7 +52,8 @@ var evaluateCmd = &cobra.Command{
 	Short: "Evaluate a design",
 	Long: `Evaluate a design by running relationship evaluation policies.
 The evaluated design is saved to the specified output file while an overview
-of evaluation actions is printed to the terminal.`,
+of evaluation actions is printed to the terminal.
+Find more information at: https://docs.meshery.io/reference/references/mesheryctl/design/evaluate`,
 	Example: `
 // Evaluate a design from a file and save the result
 mesheryctl design evaluate -f design.yaml -o evaluated-design.yaml

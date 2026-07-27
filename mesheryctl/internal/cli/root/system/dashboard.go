@@ -65,7 +65,8 @@ func newDashboardOptions() *dashboardOptions {
 
 var dashboardCmd = &cobra.Command{
 	Use:   "dashboard",
-	Short: "Open Meshery UI in browser.",
+	Short: "Open Meshery UI in browser."
+	Long: `Find more information at: https://docs.meshery.io/reference/references/mesheryctl/system/dashboard`,
 	Args:  cobra.NoArgs,
 	Example: `
 // Open Meshery UI in browser

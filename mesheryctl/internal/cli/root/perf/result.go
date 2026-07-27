@@ -58,7 +58,8 @@ var linkDocPerfResult = map[string]string{
 var resultCmd = &cobra.Command{
 	Use:   "result [profile-name]",
 	Short: "List performance test results",
-	Long:  `List all the available test results of a performance profile`,
+	Long:  `List all the available test results of a performance profile.
+	Find more information at: https://docs.meshery.io/reference/references/mesheryctl/perf/result`,
 	Args:  cobra.MinimumNArgs(0),
 	Example: `
 // List Test results (maximum 25 results)

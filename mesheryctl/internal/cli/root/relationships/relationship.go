@@ -44,7 +44,7 @@ var RelationshipCmd = &cobra.Command{
 	Short: "Manage relationships",
 	Long: `Generate, list, search and view relationship(s) and detailed information
 Meshery uses relationships to define how interconnected components interact.
-`,
+Find more information at: https://docs.meshery.io/reference/references/mesheryctl/relationship`,
 	Example: `
 // Display number of available relationships in Meshery
 mesheryctl relationship --count

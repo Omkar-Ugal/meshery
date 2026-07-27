@@ -67,7 +67,8 @@ var logsCmd = &cobra.Command{
 	Short: "Print logs",
 	Long: `Print history of Meshery's logs and begin tailing them.
 
-It also shows the logs of a specific component.`,
+It also shows the logs of a specific component.
+Find more information at: https://docs.meshery.io/reference/references/mesheryctl/system/logs`,
 	Args: cobra.ArbitraryArgs,
 	Example: `
 // Show logs (without tailing)

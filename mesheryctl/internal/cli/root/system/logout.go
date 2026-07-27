@@ -29,7 +29,8 @@ var logoutCmd = &cobra.Command{
 	Long: `
 Remove authentication for Meshery Server
 
-This command removes the authentication token from the user's filesystem`,
+This command removes the authentication token from the user's filesystem.
+Find more information at: https://docs.meshery.io/reference/references/mesheryctl/system/logout`,
 	Args: cobra.MinimumNArgs(0),
 	Example: `
 // Logout current session with your Meshery Provider.

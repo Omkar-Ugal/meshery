@@ -37,7 +37,8 @@ var loginCmd = &cobra.Command{
 	Long: `
 Authenticate to the Local or a Remote Provider of a Meshery Server
 
-The authentication mode is web-based browser flow`,
+The authentication mode is web-based browser flow.
+Find more information at: https://docs.meshery.io/reference/references/mesheryctl/system/login`,
 	Args: cobra.MinimumNArgs(0),
 	Example: `
 // Login with the Meshery Provider of your choice: the Local Provider or a Remote Provider.

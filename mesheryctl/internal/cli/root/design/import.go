@@ -47,7 +47,7 @@ var importCmd = &cobra.Command{
 
 		If you are providing remote URL, it should be a direct URL to a downloadable file.
 		For example, if the file is stored on GitHub, the URL should be 'https://raw.githubusercontent.com/path-to-file'.
-	`,
+	For more information, please refer to the documentation: https://docs.meshery.io/reference/references/mesheryctl/design/import`,
 	Example: `
 // Import design manifest
 mesheryctl design import -f [file/URL] -s [source-type] -n [name]
